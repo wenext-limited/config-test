@@ -37,5 +37,21 @@
         "lama.wenext.icu": "47.241.214.163"
       }
     }
-  }
+  },
+  "user": [
+    {
+      "uids": [
+        90138
+      ],
+      "replace": {
+        "web.wenext.love": "web-cf.wenext-lama.chat"
+      },
+      "host": [
+        "lama.wenext.love"
+      ],
+      "backup_host": [
+        "lamaeo.wenext.icu"
+      ]
+    }
+  ]
 }
