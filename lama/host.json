@@ -20,5 +20,22 @@
     "lama.wenext.love": "47.241.214.163",
     "lama.wenext.icu": "47.241.214.163",
     "appback.wenext.website": "47.236.187.182"
+  },
+  "country": {
+    "HK": {
+      "replace": {
+        "web.wenext.love": "web-cf.wenext-lama.chat"
+      },
+      "host": [
+        "lama.wenext.love"
+      ],
+      "backup_host": [
+        "lamaeo.wenext.icu"
+      ],
+      "dns": {
+        "lama.wenext.love": "47.241.214.163",
+        "lama.wenext.icu": "47.241.214.163"
+      }
+    }
   }
 }
