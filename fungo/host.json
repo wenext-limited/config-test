@@ -1,0 +1,8 @@
+{
+    "host": [
+        "api.fungo.chat"
+    ],
+    "backup_host": [
+        "fungoback.wenext.website"
+    ]
+}
