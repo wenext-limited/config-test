@@ -22,7 +22,7 @@
     "appback.wenext.website": "47.236.187.182"
   },
   "country": {
-    "HK": {
+    "CN": {
       "replace": {
         "web.wenext.love": "web-cf.wenext-lama.chat"
       },
