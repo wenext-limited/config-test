@@ -2,7 +2,8 @@
     "replace": {
       "ludo.wenext.games": "ludo-cf.wenext.games",
       "ludo.wenext.plus": "ludo-cf.wenext.plus",
-      "ludo-resource.wenext.media": "ludo-resource-cf.wenext.media"
+      "ludo-resource.wenext.media": "ludo-resource-cf.wenext.media",
+      "web.wenext.games": "web-cf.wenext-ludo.chat"
     },
     "host": [
       "ludo-cf.wenext.games",
