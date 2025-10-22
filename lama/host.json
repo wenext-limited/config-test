@@ -53,25 +53,22 @@
         "lamaeo.wenext.icu"
       ]
     },
-{
-      "uids": [
-        1073324,
-        2211204
-      ],
-      "replace": {
-        "lama-cf.wenext.media":"cdn.wenext.love" 
-      },
-      "host": [
-        "lama.wenext.love"
-      ],
-      "backup_host": [
-        "lamaeo.wenext.icu"
-      ],
-      "dns": {
-        "lama.wenext.love": "47.241.214.163",
-        "lama.wenext.icu": "47.241.214.163"
-      }
-    }
+
+            "uids":
+            [
+                1073324,
+                2211204
+            ],
+            "replace":
+            {
+                "wenext-lama.oss-ap-southeast-1.aliyuncs.com": "lama-cf.wenext-resource.chat",
+                "wenext-lama.oss-accelerate.aliyuncs.com": "lama-cf.wenext-resource.chat",
+                "lama.wenext.media": "lama-cf.wenext-resource.chat",
+                "wenext.oss-cn-hangzhou.aliyuncs.com": "lama-cf.wenext-resource.chat",
+                "wenext-lama.oss-accelerate-overseas.aliyuncs.com": "lama-cf.wenext-resource.chat",
+                "web.wenext.love": "web-cf.wenext-lama.chat"
+            }
+        }
     
   ]
 }
