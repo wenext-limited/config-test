@@ -52,6 +52,26 @@
       "backup_host": [
         "lamaeo.wenext.icu"
       ]
+    },
+{
+      "uids": [
+        1073324,
+        2211204
+      ],
+      "replace": {
+        "lama-cf.wenext.media":"cdn.wenext.love" 
+      },
+      "host": [
+        "lama.wenext.love"
+      ],
+      "backup_host": [
+        "lamaeo.wenext.icu"
+      ],
+      "dns": {
+        "lama.wenext.love": "47.241.214.163",
+        "lama.wenext.icu": "47.241.214.163"
+      }
     }
+    
   ]
 }
