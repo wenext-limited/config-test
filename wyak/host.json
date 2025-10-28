@@ -1,1 +1,57 @@
-{"replace":{"wyakeo.wenext.chat":"api.wenext-wyak.chat","wyakeo.wenext.technology":"wyak-cf.wenext.technology","wyakback.wenext.website":"wyak-cf.wenext.chat","wayak-resource.wenext.media":"wyak-resource-cf.wenext-resource.chat","wayak-resource-h5.wenext.media":"wyak-resource-cf.wenext-resource.chat","d40f5dilfw079.cloudfront.net":"wyak-resource-cf.wenext-resource.chat","wayak-system-1314119829.cos.eu-frankfurt.myqcloud.com":"wyak-resource-cf.wenext-resource.chat","wyak-cf.wenext.media":"wyak-user-cf.wenext-resource.chat","wyak.oss-accelerate.aliyuncs.com":"wyak-user-cf.wenext-resource.chat","d2m47rrxncwxbt.cloudfront.net":"wyak-user-cf.wenext-resource.chat","web.wenext.chat":"web-cf.wenext-wyak.chat"},"host":["api.wenext-wyak.chat"],"backup_host":["wyak-cf.wenext.technology","wyak-cf.wenext.chat"],"dns":{"wayak.wenext.chat":"43.131.7.185","wayak.wenext.technology":"43.131.7.185","wyakeo.wenext.chat":"43.131.7.185","wyakeo.wenext.technology":"43.131.7.185","wyakback.wenext.website":"162.62.115.86","wyak-cf.wenext.technology":"43.131.7.185","wyak-cf.wenext.chat":"43.131.7.185","api.wenext-wyak.chat":"43.131.7.185"},"country":{"PH":{"replace":{"wyakeo.wenext.chat":"api.wenext-wyak.chat","wyakeo.wenext.technology":"api.wenext-wyak.chat","wyakback.wenext.website":"api.wenext-wyak.chat","wayak-resource.wenext.media":"wyak-resource-cf.wenext-resource.chat","wayak-resource-h5.wenext.media":"wyak-resource-cf.wenext-resource.chat","d40f5dilfw079.cloudfront.net":"wyak-resource-cf.wenext-resource.chat","wayak-system-1314119829.cos.eu-frankfurt.myqcloud.com":"wyak-resource-cf.wenext-resource.chat","wyak-cf.wenext.media":"wyak-user-cf.wenext-resource.chat","wyak.oss-accelerate.aliyuncs.com":"wyak-user-cf.wenext-resource.chat","d2m47rrxncwxbt.cloudfront.net":"wyak-user-cf.wenext-resource.chat","web.wenext.chat":"web-cf.wenext-wyak.chat"},"host":["api.wenext-wyak.chat"],"backup_host":[]}}}
+{
+  "replace": {
+    "wyakeo.wenext.chat": "api.wenext-wyak.chat",
+    "wyakeo.wenext.technology": "wyak-cf.wenext.technology",
+    "wyakback.wenext.website": "wyak-cf.wenext.chat",
+    "wayak-resource.wenext.media": "wyak-resource-cf.wenext-resource.chat",
+    "wayak-resource-h5.wenext.media": "wyak-resource-cf.wenext-resource.chat",
+    "d40f5dilfw079.cloudfront.net": "wyak-resource-cf.wenext-resource.chat",
+    "wayak-system-1314119829.cos.eu-frankfurt.myqcloud.com": "wyak-resource-cf.wenext-resource.chat",
+    "wyak-user.wenext.media": "wyak-user-cf.wenext-resource.chat",
+    "wyak-cf.wenext.media": "wyak-user-cf.wenext-resource.chat",
+    "wyak.oss-accelerate.aliyuncs.com": "wyak-user-cf.wenext-resource.chat",
+    "wyak.oss-ap-southeast-1.aliyuncs.com": "wyak-user-cf.wenext-resource.chat",
+    "d2m47rrxncwxbt.cloudfront.net": "wyak-user-cf.wenext-resource.chat",
+    "web.wenext.chat": "web-cf.wenext-wyak.chat"
+  },
+  "host": [
+    "api.wenext-wyak.chat"
+  ],
+  "backup_host": [
+    "wyak-cf.wenext.technology",
+    "wyak-cf.wenext.chat"
+  ],
+  "dns": {
+    "wayak.wenext.chat": "43.131.7.185",
+    "wayak.wenext.technology": "43.131.7.185",
+    "wyakeo.wenext.chat": "43.131.7.185",
+    "wyakeo.wenext.technology": "43.131.7.185",
+    "wyakback.wenext.website": "162.62.115.86",
+    "wyak-cf.wenext.technology": "43.131.7.185",
+    "wyak-cf.wenext.chat": "43.131.7.185",
+    "api.wenext-wyak.chat": "43.131.7.185"
+  },
+  "country": {
+    "PH": {
+      "replace": {
+        "wyakeo.wenext.chat": "api.wenext-wyak.chat",
+        "wyakeo.wenext.technology": "api.wenext-wyak.chat",
+        "wyakback.wenext.website": "api.wenext-wyak.chat",
+        "wayak-resource.wenext.media": "wyak-resource-cf.wenext-resource.chat",
+        "wayak-resource-h5.wenext.media": "wyak-resource-cf.wenext-resource.chat",
+        "d40f5dilfw079.cloudfront.net": "wyak-resource-cf.wenext-resource.chat",
+        "wayak-system-1314119829.cos.eu-frankfurt.myqcloud.com": "wyak-resource-cf.wenext-resource.chat",
+        "wyak-user.wenext.media": "wyak-user-cf.wenext-resource.chat",
+        "wyak-cf.wenext.media": "wyak-user-cf.wenext-resource.chat",
+        "wyak.oss-accelerate.aliyuncs.com": "wyak-user-cf.wenext-resource.chat",
+        "wyak.oss-ap-southeast-1.aliyuncs.com": "wyak-user-cf.wenext-resource.chat",
+        "d2m47rrxncwxbt.cloudfront.net": "wyak-user-cf.wenext-resource.chat",
+        "web.wenext.chat": "web-cf.wenext-wyak.chat"
+      },
+      "host": [
+        "api.wenext-wyak.chat"
+      ],
+      "backup_host": []
+    }
+  }
+}
