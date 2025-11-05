@@ -13,6 +13,5 @@
     "wepartyback.wenext.website": "162.62.97.46",
     "weparty-cf.wenext.cloud": "162.62.97.46"
   },
-  "doh_min_version": 89,
-  "doh_ip_verifier_type": 1
+  "doh_ip_verifier_type": 2
 }
