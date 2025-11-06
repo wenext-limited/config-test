@@ -13,5 +13,25 @@
     "wepartyback.wenext.website": "162.62.97.46",
     "weparty-cf.wenext.cloud": "162.62.97.46"
   },
-  "doh_ip_verifier_type": 2
+  "doh_ip_verifier_type": 2,
+  "doh_to_ips": {
+    "cloudflare-dns.com": [
+      "1.1.1.1",
+      "1.0.0.1",
+      "104.16.248.249",
+      "104.16.249.249"
+    ],
+    "dns.google": [
+      "8.8.8.8",
+      "8.8.4.4"
+    ],
+    "dns.alidns.com": [
+      "223.5.5.5",
+      "223.6.6.6"
+    ],
+    "doh.pub": [
+      "120.53.53.53",
+      "119.29.29.29"
+    ]
+  }
 }
