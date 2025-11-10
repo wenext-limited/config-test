@@ -8,13 +8,11 @@
     "web.wenext.love": "web-cf.wenext-lama.chat"
   },
   "host": [
-    "lama.wenext.love",
-    "lama.wenext.icu"
+   "api.wenext-lama.chat"
   ],
   "backup_host": [
-    "lamaeo.wenext.icu",
-    "lamaeo.wenext.love",
-    "appback.wenext.website"
+    "lama-cf.wenext.media",
+    "web-cf.wenext-lama.chat"
   ],
   "dns": {
     "lama.wenext.love": "47.241.214.163",
@@ -30,7 +28,8 @@
         "lama.wenext.love"
       ],
       "backup_host": [
-        "lamaeo.wenext.icu"
+        "lama-cf.wenext.media",
+        "web-cf.wenext-lama.chat"
       ],
       "dns": {
         "lama.wenext.love": "47.241.214.163",
@@ -50,7 +49,8 @@
         "lama.wenext.love"
       ],
       "backup_host": [
-        "lamaeo.wenext.icu"
+        "lama-cf.wenext.media",
+        "web-cf.wenext-lama.chat"
       ]
     },
 
