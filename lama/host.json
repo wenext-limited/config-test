@@ -46,7 +46,7 @@
         "web.wenext.love": "web-cf.wenext-lama.chat"
       },
       "host": [
-        "lama.wenext.love"
+        "api.wenext-lama.chat"
       ],
       "backup_host": [
         "lama-cf.wenext.media",
