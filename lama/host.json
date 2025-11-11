@@ -11,12 +11,11 @@
    "api.wenext-lama.chat"
   ],
   "backup_host": [
-    "lama-cf.wenext.media",
-    "web-cf.wenext-lama.chat"
+    "lama-cf.wenext.media"
   ],
   "dns": {
-    "lama.wenext.love": "47.241.214.163",
-    "lama.wenext.icu": "47.241.214.163",
+    "api.wenext-lama.chat": "47.241.214.163",
+    "lama-cf.wenext.media": "47.241.214.163",
     "appback.wenext.website": "47.236.187.182"
   },
   "country": {
