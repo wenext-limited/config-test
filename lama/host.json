@@ -1,62 +1,77 @@
 {
-  "replace": {
-    "wenext-lama.oss-ap-southeast-1.aliyuncs.com": "lama-cf.wenext-resource.chat",
-    "wenext-lama.oss-accelerate.aliyuncs.com": "lama-cf.wenext-resource.chat",
-    "lama.wenext.media": "lama-cf.wenext-resource.chat",
-    "cdn.wenext.love":"lama-cf.wenext-resource.chat",
-    "wenext.oss-cn-hangzhou.aliyuncs.com": "lama-cf.wenext-resource.chat",
-    "wenext-lama.oss-accelerate-overseas.aliyuncs.com": "lama-cf.wenext-resource.chat",
-    "web.wenext.love": "web-cf.wenext-lama.chat"
-  },
-  "host": [
-   "api.wenext-lama.chat"
-  ],
-  "backup_host": [
-    "lama-cf.wenext-resource.chat",
-    "lama-cf.wenext.media"
-  ],
-  "dns": {
-    "api.wenext-lama.chat": "47.241.214.163",
-    "lama-cf.wenext.media": "47.241.214.163",
-    "lama-cf.wenext-resource.chat":"47.241.214.163"，
-    "appback.wenext.website": "47.236.187.182"
-  },
-  "country": {
-    "CN": {
-      "replace": {
-        "web.wenext.love": "web-cf.wenext-lama.chat"
-      },
-      "host": [
-        "api.wenext-lama.chat"
-      ],
-      "backup_host": [
-        "lama-cf.wenext.media",
-        "web-cf.wenext-lama.chat"
-      ],
-      "dns": {
-        "lama.wenext.love": "47.241.214.163",
-        "lama.wenext.icu": "47.241.214.163"
-      }
-    }
-  },
-  "user": [
+    "replace":
     {
-      "uids": [
-        90138
-      ],
-      "replace": {
+        "wenext-lama.oss-ap-southeast-1.aliyuncs.com": "lama-cf.wenext-resource.chat",
+        "wenext-lama.oss-accelerate.aliyuncs.com": "lama-cf.wenext-resource.chat",
+        "lama.wenext.media": "lama-cf.wenext-resource.chat",
+        "cdn.wenext.love": "lama-cf.wenext-resource.chat",
+        "wenext.oss-cn-hangzhou.aliyuncs.com": "lama-cf.wenext-resource.chat",
+        "wenext-lama.oss-accelerate-overseas.aliyuncs.com": "lama-cf.wenext-resource.chat",
         "web.wenext.love": "web-cf.wenext-lama.chat"
-      },
-      "host": [
-        "api.wenext-lama.chat"
-      ],
-      "backup_host": [
-        "lama-cf.wenext.media",
-        "web-cf.wenext-lama.chat"
-      ]
     },
-
-            {"uids":
+    "host":
+    [
+        "api.wenext-lama.chat"
+    ],
+    "backup_host":
+    [
+        "lama-cf.wenext-resource.chat",
+        "lama-cf.wenext.media"
+    ],
+    "dns":
+    {
+        "api.wenext-lama.chat": "47.241.214.163",
+        "lama-cf.wenext.media": "47.241.214.163",
+        "lama-cf.wenext-resource.chat": "47.241.214.163",
+        "appback.wenext.website": "47.236.187.182"
+    },
+    "country":
+    {
+        "CN":
+        {
+            "replace":
+            {
+                "web.wenext.love": "web-cf.wenext-lama.chat"
+            },
+            "host":
+            [
+                "api.wenext-lama.chat"
+            ],
+            "backup_host":
+            [
+                "lama-cf.wenext.media",
+                "web-cf.wenext-lama.chat"
+            ],
+            "dns":
+            {
+                "lama.wenext.love": "47.241.214.163",
+                "lama.wenext.icu": "47.241.214.163"
+            }
+        }
+    },
+    "user":
+    [
+        {
+            "uids":
+            [
+                90138
+            ],
+            "replace":
+            {
+                "web.wenext.love": "web-cf.wenext-lama.chat"
+            },
+            "host":
+            [
+                "api.wenext-lama.chat"
+            ],
+            "backup_host":
+            [
+                "lama-cf.wenext.media",
+                "web-cf.wenext-lama.chat"
+            ]
+        },
+        {
+            "uids":
             [
                 1073324,
                 2211204
@@ -68,10 +83,9 @@
                 "lama.wenext.media": "lama-cf.wenext-resource.chat",
                 "wenext.oss-cn-hangzhou.aliyuncs.com": "lama-cf.wenext-resource.chat",
                 "wenext-lama.oss-accelerate-overseas.aliyuncs.com": "lama-cf.wenext-resource.chat",
-              "lama-cf.wenext.media":"lama-cf.wenext-resource.chat",
+                "lama-cf.wenext.media": "lama-cf.wenext-resource.chat",
                 "web.wenext.love": "web-cf.wenext-lama.chat"
             }
         }
-    
-  ]
+    ]
 }
