@@ -1,48 +1,22 @@
 {
     "replace": {
-      "ludo.wenext.games": "ludo-cf.wenext.games",
-      "ludo.wenext.plus": "ludo-cf.wenext.plus",
-      "ludo-resource.wenext.media": "ludo-resource-cf.wenext.media",
-      "web.wenext.games": "web-cf.wenext-ludo.chat"
+        "ludo.wenext.games": "ludo-cf.wenext.games",
+        "ludo.wenext.plus": "ludo-cf.wenext.plus",
+        "ludo-resource.wenext.media": "ludo-resource-cf.wenext-resource.chat",
+        "ludo-user.wenext.media": "ludo-user-cf.wenext-resource.chat",
+        "ludo-system-1314119829.cos.eu-frankfurt.myqcloud.com": "ludo-resource-cf.wenext.media",
+        "web.wenext.games": "web-cf.wenext-ludo.chat"
     },
     "host": [
-      "ludo-cf.wenext.games",
-      "ludo-cf.wenext.plus"
+        "api.wenext-ludo.chat"
     ],
     "backup_host": [
-      "ludoback.wenext.website"
+        "ludo-cf.wenext.games",
+        "ludo-cf.wenext.plus",
+        "ludoback.wenext.website"
     ],
     "dns": {
-      "ludo-cf.wenext.games": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud",
-      "ludo-cf.wenext.plus": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud"
-    },
-    "country": {
-      "GB": {
-        "replace": {
-          "ludo.wenext.games": "ludo-cf.wenext.games"
-        },
-        "host": [
-          "ludo-cf.wenext.games"
-        ],
-        "backup_host": [
-          "ludoback.wenext.website"
-        ]
-      }
-    },
-    "user": [
-      {
-        "uids": [
-          100003268
-        ],
-        "host": [
-          "ludo-cf.wenext.games"
-        ],
-        "backup_host": [
-          "ludoback.wenext.website"
-        ],
-        "dns": {
-          "ludo-cf.wenext.games": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud"
-        }
-      }
-    ]
-  }
+        "ludo-cf.wenext.games": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud",
+        "ludo-cf.wenext.plus": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud"
+    }
+}
