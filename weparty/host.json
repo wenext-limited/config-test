@@ -1,6 +1,10 @@
 {
   "replace": {
-    "weparty.wenext.cloud": "weparty-cf.wenext.cloud"
+    "weparty.wenext.cloud": "weparty-cf.wenext.cloud",
+    "wyak.oss-ap-southeast-1.aliyuncs.com": "wyak-user-cf.wenext-resource.chat",
+    "weparty-user-1314119829.cos.eu-frankfurt.myqcloud.com" : "weparty-user-cf.wenext-resource.chat",
+    "d40f5dilfw079.cloudfront.net": "weparty-resource-cf.wenext-resource.chat",
+    "dej9gqpqi3qlh.cloudfront.net": "weparty-user-cf.wenext-resource.chat"
   },
   "host": [
     "weparty-cf.wenext.cloud"
