@@ -18,8 +18,8 @@
     "api.wenext-wyak.chat"
   ],
   "backup_host": [
-    "wyak-cf.wenext.technology",
-    "wyak-cf.wenext.chat"
+    "wyakeo.wenext.technology",
+    "wyakeo.wenext.chat"
   ],
   "dns": {
     "wayak.wenext.chat": "43.131.7.185",
@@ -51,7 +51,10 @@
       "host": [
         "api.wenext-wyak.chat"
       ],
-      "backup_host": []
+      "backup_host": [
+        "wyakeo.wenext.technology",
+        "wyakeo.wenext.chat"
+      ]
     }
   }
 }
