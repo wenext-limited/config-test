@@ -5,7 +5,9 @@
         "ludo-resource.wenext.media": "ludo-resource-cf.wenext-resource.chat",
         "ludo-user.wenext.media": "ludo-user-cf.wenext-resource.chat",
         "ludo-system-1314119829.cos.eu-frankfurt.myqcloud.com": "ludo-resource-cf.wenext.media",
-        "web.wenext.games": "web-cf.wenext-ludo.chat"
+        "web.wenext.games": "web-cf.wenext-ludo.chat",
+        "lamaludo.oss-ap-southeast-1.aliyuncs.com": "lamaludo-cf.wenext-resource.chat",
+        "lamaludo.oss-accelerate.aliyuncs.com": "lamaludo-cf.wenext-resource.chat"
     },
     "host": [
         "api.wenext-ludo.chat"
