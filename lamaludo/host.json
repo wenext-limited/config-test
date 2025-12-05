@@ -18,6 +18,7 @@
         "ludoback.wenext.website"
     ],
     "dns": {
+        "api.wenext-ludo.chat": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud",
         "ludo-cf.wenext.games": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud",
         "ludo-cf.wenext.plus": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud"
     }
