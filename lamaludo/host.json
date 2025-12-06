@@ -1,7 +1,5 @@
 {
     "replace": {
-        "ludo.wenext.games": "ludo-cf.wenext.games",
-        "ludo.wenext.plus": "ludo-cf.wenext.plus",
         "ludo-resource.wenext.media": "ludo-resource-cf.wenext-resource.chat",
         "ludo-user.wenext.media": "ludo-user-cf.wenext-resource.chat",
         "ludo-system-1314119829.cos.eu-frankfurt.myqcloud.com": "ludo-resource-cf.wenext.media",
@@ -13,9 +11,8 @@
         "api.wenext-ludo.chat"
     ],
     "backup_host": [
-        "ludo-cf.wenext.games",
-        "ludo-cf.wenext.plus",
-        "ludoback.wenext.website"
+        "ludo.wenext.games",
+        "ludo.wenext.plus"
     ],
     "dns": {
         "api.wenext-ludo.chat": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud",
