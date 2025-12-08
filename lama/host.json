@@ -1,13 +1,13 @@
 {
     "replace":
     {
-        "wenext-lama.oss-ap-southeast-1.aliyuncs.com": "lama-cf.wenext-resource.chat",
-        "wenext-lama.oss-accelerate.aliyuncs.com": "lama-cf.wenext-resource.chat",
-        "lama.wenext.media": "lama-cf.wenext-resource.chat",
-        "wenext.oss-cn-hangzhou.aliyuncs.com": "lama-cf.wenext-resource.chat",
-        "wenext-lama.oss-accelerate-overseas.aliyuncs.com": "lama-cf.wenext-resource.chat",
+        "wenext-lama.oss-ap-southeast-1.aliyuncs.com": "oss-ecs.wenext-lama.chat",
+        "wenext-lama.oss-accelerate.aliyuncs.com": "oss-ecs.wenext-lama.chat",
+        "lama.wenext.media": "oss-ecs.wenext-lama.chat",
+        "wenext.oss-cn-hangzhou.aliyuncs.com": "oss-ecs.wenext-lama.chat",
+        "wenext-lama.oss-accelerate-overseas.aliyuncs.com": "oss-ecs.wenext-lama.chat",
         "web.wenext.love": "web-cf.wenext-lama.chat",
-        "lama-cf.wenext.media": "lama-cf.wenext-resource.chat"
+        "lama-cf.wenext.media": "oss-ecs.wenext-lama.chat"
     },
     "host":
     [
