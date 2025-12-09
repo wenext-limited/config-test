@@ -22,7 +22,10 @@
     "user": [
         {
             "uids": [
-                105291459
+                105291459,
+                100192314,
+                107172198,
+                100001010
             ],
             "replace": {
                 "lamaludo-cf.wenext.media": "lamaludo-user.wenext.media",
