@@ -23,7 +23,6 @@
         {
             "uids": [
                 105291459,
-                100192314,
                 107172198,
                 100984121,
                 100473264,
@@ -37,6 +36,23 @@
                 "web.wenext.games": "web-cf.wenext-ludo.chat",
                 "lamaludo.oss-ap-southeast-1.aliyuncs.com": "lamaludo-cf.wenext-resource.chat",
                 "lamaludo.oss-accelerate.aliyuncs.com": "lamaludo-cf.wenext-resource.chat"
+            }
+        },
+        {
+            "uids": [
+                100192314
+            ],
+            "replace": {
+                "lamaludo-cf.wenext.media": "lamaludo-user.wenext.media",
+                "ludo-resource.wenext.media": "oss-ecs-system.wenext-ludo.chat",
+                "ludo-resource-cf.wenext-resource.chat": "oss-ecs-system.wenext-ludo.chat",
+                "ludo-user.wenext.media": "oss-ecs-user.wenext-ludo.chat",
+                "ludo-user-cf.wenext-resource.chat": "oss-ecs-user.wenext-ludo.chat",
+                "ludo-system-1314119829.cos.eu-frankfurt.myqcloud.com": "ludo-resource-cf.wenext.media",
+                "web.wenext.games": "web-cf.wenext-ludo.chat",
+                "lamaludo.oss-ap-southeast-1.aliyuncs.com": "oss-ecs-user-ali.wenext-ludo.chat",
+                "lamaludo.oss-accelerate.aliyuncs.com": "oss-ecs-user-ali.wenext-ludo.chat",
+                "lamaludo-cf.wenext-resource.chat": "oss-ecs-user-ali.wenext-ludo.chat"
             }
         }
     ]
