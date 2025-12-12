@@ -25,8 +25,7 @@
                 105291459,
                 107172198,
                 100984121,
-                100473264,
-                100001010
+                100473264
             ],
             "replace": {
                 "lamaludo-cf.wenext.media": "lamaludo-user.wenext.media",
@@ -40,7 +39,8 @@
         },
         {
             "uids": [
-                100192314
+                100192314,
+                100001010
             ],
             "replace": {
                 "lamaludo-cf.wenext.media": "lamaludo-user.wenext.media",
