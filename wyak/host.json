@@ -53,22 +53,24 @@
       ]
     }
   },
-  "user": {
-    "uids": [
-      1113225
-    ],
-    "replace": {
-      "wyakback.wenext.website": "wyak-cf.wenext.chat",
-      "wayak-resource.wenext.media": "oss-ecs-system.wenext-wyak.chat",
-      "wayak-resource-h5.wenext.media": "oss-ecs-system.wenext-wyak.chat",
-      "d40f5dilfw079.cloudfront.net": "oss-ecs-system.wenext-wyak.chat",
-      "wayak-system-1314119829.cos.eu-frankfurt.myqcloud.com": "oss-ecs-system.wenext-wyak.chat",
-      "wyak-user.wenext.media": "oss-ecs-user.wenext-wyak.chat",
-      "wyak-cf.wenext.media": "oss-ecs-user.wenext-wyak.chat",
-      "wyak.oss-accelerate.aliyuncs.com": "oss-ecs-user.wenext-wyak.chat",
-      "wyak.oss-ap-southeast-1.aliyuncs.com": "oss-ecs-user.wenext-wyak.chat",
-      "d2m47rrxncwxbt.cloudfront.net": "oss-ecs-user.wenext-wyak.chat",
-      "web.wenext.chat": "web-cf.wenext-wyak.chat"
+  "user": [
+    {
+      "uids": [
+        1113225
+      ],
+      "replace": {
+        "wyakback.wenext.website": "wyak-cf.wenext.chat",
+        "wayak-resource.wenext.media": "oss-ecs-system.wenext-wyak.chat",
+        "wayak-resource-h5.wenext.media": "oss-ecs-system.wenext-wyak.chat",
+        "d40f5dilfw079.cloudfront.net": "oss-ecs-system.wenext-wyak.chat",
+        "wayak-system-1314119829.cos.eu-frankfurt.myqcloud.com": "oss-ecs-system.wenext-wyak.chat",
+        "wyak-user.wenext.media": "oss-ecs-user.wenext-wyak.chat",
+        "wyak-cf.wenext.media": "oss-ecs-user.wenext-wyak.chat",
+        "wyak.oss-accelerate.aliyuncs.com": "oss-ecs-user.wenext-wyak.chat",
+        "wyak.oss-ap-southeast-1.aliyuncs.com": "oss-ecs-user.wenext-wyak.chat",
+        "d2m47rrxncwxbt.cloudfront.net": "oss-ecs-user.wenext-wyak.chat",
+        "web.wenext.chat": "web-cf.wenext-wyak.chat"
+      }
     }
-  }
+  ]
 }
