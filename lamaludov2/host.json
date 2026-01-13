@@ -1,0 +1,43 @@
+{
+    "replace": {
+        "ludo-resource.wenext.media": "ludo-resource-cf.wenext-resource.chat",
+        "ludo-user.wenext.media": "ludo-user-cf.wenext-resource.chat",
+        "ludo-system-1314119829.cos.eu-frankfurt.myqcloud.com": "ludo-resource-cf.wenext.media",
+        "web.wenext.games": "web-cf.wenext-ludo.chat",
+        "lamaludo.oss-ap-southeast-1.aliyuncs.com": "lamaludo-cf.wenext-resource.chat",
+        "lamaludo.oss-accelerate.aliyuncs.com": "lamaludo-cf.wenext-resource.chat"
+    },
+    "hosts": [
+        {
+            "group_name": "main",
+            "nodes": [
+                {
+                    "host": "api.wenext-ludo.chat",
+                    "weight": 10,
+                    "user_bucket": 10
+                },
+                {
+                    "host": "ludo.wenext.games",
+                    "priority": 1
+                },
+                {
+                    "host": "ludo.wenext.plus",
+                    "priority": 1
+                }
+            ]
+        },
+        {
+            "group_name": "service",
+            "nodes": {
+                "api.backup_host.plus": {
+                    "priority": 1
+                }
+            }
+        }
+    ],
+    "dns": {
+        "api.wenext-ludo.chat": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud",
+        "ludo-cf.wenext.games": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud",
+        "ludo-cf.wenext.plus": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud"
+    }
+}
