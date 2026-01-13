@@ -28,11 +28,13 @@
         },
         {
             "group_name": "service",
-            "nodes": {
-                "api.backup_host.plus": {
-                    "priority": 1
+            "nodes": [
+                {
+                    "host": "api.backup_host.plus",
+                    "weight": 1,
+                    "user_bucket": 10
                 }
-            }
+            ]
         }
     ],
     "dns": {
