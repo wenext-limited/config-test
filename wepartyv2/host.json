@@ -29,7 +29,7 @@
       ]
     },
     {
-      "group_name": "user_cdn_cos",
+      "group_name": "user-cdn-cos",
       "desc": "腾讯云 用户资源 CDN",
       "nodes": [
         {
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "group_name": "system_cdn_cos",
+      "group_name": "system-cdn-cos",
       "desc": "腾讯云 系统资源 CDN",
       "nodes": [
         {
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "group_name": "user_cdn_ali",
+      "group_name": "user-cdn-ali",
       "desc": "阿里云 用户资源 CDN",
       "nodes": [
         {
