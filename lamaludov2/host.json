@@ -96,7 +96,7 @@
                 },
                 {
                     "host": "lamaludo-user.wenext.media",
-                    "weight": 10,
+                    "weight": 5,
                     "desc": "腾讯云CDN 加速域名"
                 },
                 {
