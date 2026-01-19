@@ -1,0 +1,147 @@
+{
+  "replace": {
+    "weparty.wenext.cloud": "weparty-cf.wenext.cloud"
+  },
+  "hosts": [
+    {
+      "group_name": "main",
+      "nodes": [
+        {
+          "host": "weparty-cf.wenext.cloud",
+          "weight": 10,
+          "desc": "Cloudflare 业务api域名"
+        },
+        {
+          "host": "wepartyback.wenext.website",
+          "priority": 1,
+          "desc": "腾讯云 业务api域名"
+        }
+      ]
+    },
+    {
+      "group_name": "wenext-activity",
+      "nodes": [
+        {
+          "host": "api-fra.wenext-activity.chat",
+          "weight": 10,
+          "desc": "腾讯云 新活动平台api域名"
+        }
+      ]
+    },
+    {
+      "group_name": "user_cdn_cos",
+      "desc": "腾讯云 用户资源 CDN",
+      "nodes": [
+        {
+          "host": "weparty-user-cf.wenext-resource.chat",
+          "weight": 10,
+          "desc": "Cloudflare CDN 加速域名"
+        },
+        {
+          "host": "weparty-user.wenext.media",
+          "weight": 5,
+          "desc": "腾讯云CDN 加速域名"
+        },
+        {
+          "host": "dej9gqpqi3qlh.cloudfront.net",
+          "weight": 2,
+          "desc": "AWS CDN 加速域名"
+        },
+        {
+          "host": "oss-ecs-user.wenext.cloud",
+          "weight": 2,
+          "desc": "lb + nginx反代oss 域名"
+        },
+        {
+          "host": "weparty-user-1314119829.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1,
+          "desc": "腾讯云对象存储域名"
+        }
+      ]
+    },
+    {
+      "group_name": "system_cdn_cos",
+      "desc": "腾讯云 系统资源 CDN",
+      "nodes": [
+        {
+          "host": "weparty-resource-cf.wenext-resource.chat",
+          "weight": 10,
+          "desc": "Cloudflare CDN 加速域名"
+        },
+        {
+          "host": "wayak-resource.wenext.media",
+          "weight": 5,
+          "desc": "腾讯云CDN 加速域名"
+        },
+        {
+          "host": "d40f5dilfw079.cloudfront.net",
+          "weight": 2,
+          "desc": "AWS CDN 加速域名"
+        },
+        {
+          "host": "oss-ecs-system.wenext.cloud",
+          "weight": 2,
+          "desc": "lb + nginx反代oss 域名"
+        },
+        {
+          "host": "wayak-system-1314119829.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1,
+          "desc": "腾讯云对象存储域名"
+        }
+      ]
+    },
+    {
+      "group_name": "user_cdn_ali",
+      "desc": "阿里云 用户资源 CDN",
+      "nodes": [
+        {
+          "host": "wyak-cf.wenext.media",
+          "weight": 10,
+          "desc": "Cloudflare CDN 加速域名"
+        },
+        {
+          "host": "wyak-cdn.wenext.love",
+          "weight": 5,
+          "desc": "阿里云CDN 加速域名"
+        },
+        {
+          "host": "d2m47rrxncwxbt.cloudfront.net",
+          "weight": 2,
+          "desc": "AWS CDN 加速域名"
+        },
+        {
+          "host": "wyak.oss-ap-southeast-1.aliyuncs.com",
+          "weight": 1,
+          "desc": "阿里云对象存储域名"
+        }
+      ]
+    }
+  ],
+  "dns": {
+    "weparty.wenext.cloud": "162.62.97.46",
+    "wepartyback.wenext.website": "162.62.97.46",
+    "weparty-cf.wenext.cloud": "162.62.97.46",
+    "oss-ecs-system.wenext.cloud": "47.236.231.189",
+    "oss-ecs-user.wenext.cloud": "47.236.231.189"
+  },
+  "doh_ip_verifier_type": 2,
+  "doh_check_enable": false,
+  "doh_bootstrap_ips": {
+    "cloudflare-dns.com": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "dns.google": [
+      "8.8.8.8",
+      "8.8.4.4"
+    ],
+    "dns.alidns.com": [
+      "223.5.5.5",
+      "223.6.6.6"
+    ],
+    "dns.quad9.net": [
+      "9.9.9.9",
+      "149.112.112.112"
+    ]
+  }
+}
