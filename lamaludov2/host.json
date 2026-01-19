@@ -46,6 +46,11 @@
                     "desc": "腾讯云CDN 加速域名"
                 },
                 {
+                    "host": "d3cspu46wou5qn.cloudfront.net",
+                    "weight": 2,
+                    "desc": "AWS CDN 加速域名"
+                },
+                {
                     "host": "oss-ecs-user.wenext-ludo.chat",
                     "weight": 2,
                     "desc": "lb + nginx反代oss 域名"
@@ -72,6 +77,11 @@
                     "desc": "腾讯云CDN 加速域名"
                 },
                 {
+                    "host": "dbzt1cnkzzc8n.cloudfront.net",
+                    "weight": 2,
+                    "desc": "AWS CDN 加速域名"
+                },
+                {
                     "host": "oss-ecs-system.wenext-ludo.chat",
                     "weight": 2,
                     "desc": "lb + nginx反代oss 域名"
@@ -96,6 +106,11 @@
                     "host": "lamaludo-user.wenext.media",
                     "weight": 5,
                     "desc": "腾讯云CDN 加速域名"
+                },
+                {
+                    "host": "d350ifinc15i4w.cloudfront.net",
+                    "weight": 2,
+                    "desc": "AWS CDN 加速域名"
                 },
                 {
                     "host": "oss-ecs-user-ali.wenext-ludo.chat",
