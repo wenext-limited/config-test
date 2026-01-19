@@ -34,59 +34,85 @@
             ]
         },
         {
-            "group_name": "user_cdn",
-            "desc": "用户资源 CDN",
+            "group_name": "user_cdn_cos",
+            "desc": "腾讯云 用户资源 CDN",
             "nodes": [
                 {
                     "host": "ludo-user-cf.wenext-resource.chat",
                     "weight": 10,
-                    "desc": "Cloudflare CDN 用户资源 加速域名"
+                    "desc": "Cloudflare CDN 加速域名"
                 },
                 {
                     "host": "ludo-user.wenext.media",
                     "weight": 5,
-                    "desc": "腾讯云CDN 用户资源 加速域名"
+                    "desc": "腾讯云CDN 加速域名"
                 },
                 {
                     "host": "oss-ecs-user.wenext-ludo.chat",
                     "weight": 2,
-                    "desc": "lb + nginx 反代oss 用户资源 域名"
+                    "desc": "lb + nginx 反代oss 域名"
                 },
                 {
                     "host": "ludo-1314119829.cos.eu-frankfurt.myqcloud.com",
                     "weight": 1,
-                    "desc": "阿里云对象存储 用户资源 域名"
+                    "desc": "腾讯云对象存储域名"
                 }
             ]
         },
         {
-            "group_name": "system_cdn",
-            "desc": "系统资源 CDN",
+            "group_name": "system_cdn_cos",
+            "desc": "腾讯云 系统资源 CDN",
             "nodes": [
-                {
-                    "host": "ludo-resource-cf.wenext-resource.chat",
-                    "weight": 10,
-                    "desc": "Cloudflare CDN 系统资源 加速域名"
-                },
                 {
                     "host": "ludo-resource-cf.wenext.media",
                     "weight": 10,
-                    "desc": "Cloudflare CDN 系统资源 加速域名"
+                    "desc": "Cloudflare CDN 加速域名"
                 },
                 {
                     "host": "ludo-resource.wenext.media",
-                    "weight": 5,
-                    "desc": "腾讯云CDN 系统资源 加速域名"
+                    "weight": 10,
+                    "desc": "腾讯云CDN 加速域名"
                 },
                 {
                     "host": "oss-ecs-system.wenext-ludo.chat",
                     "weight": 2,
-                    "desc": "lb + nginx 反代oss 系统资源 域名"
+                    "desc": "lb + nginx 反代oss 域名"
                 },
                 {
                     "host": "ludo-system-1314119829.cos.eu-frankfurt.myqcloud.com",
                     "weight": 1,
-                    "desc": "阿里云对象存储 系统资源 域名"
+                    "desc": "腾讯云对象存储 域名"
+                }
+            ]
+        },
+        {
+            "group_name": "user_cdn_ali",
+            "desc": "阿里云 用户资源 CDN",
+            "nodes": [
+                {
+                    "host": "lamaludo-cf.wenext.media",
+                    "weight": 10,
+                    "desc": "Cloudflare CDN 加速域名"
+                },
+                {
+                    "host": "lamaludo-user.wenext.media",
+                    "weight": 10,
+                    "desc": "腾讯云CDN 加速域名"
+                },
+                {
+                    "host": "oss-ecs-user-ali.wenext-ludo.chat",
+                    "weight": 2,
+                    "desc": "lb + nginx 反代oss 域名"
+                },
+                {
+                    "host": "lamaludo.oss-accelerate.aliyuncs.com",
+                    "weight": 1,
+                    "desc": "阿里云对象存储 域名"
+                },
+                {
+                    "host": "lamaludo.oss-ap-southeast-1.aliyuncs.com",
+                    "weight": 1,
+                    "desc": "阿里云对象存储 域名"
                 }
             ]
         }
