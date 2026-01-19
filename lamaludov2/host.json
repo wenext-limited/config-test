@@ -1,8 +1,6 @@
 {
     "replace": {
-        "web.wenext.games": "web-cf.wenext-ludo.chat",
-        "lamaludo.oss-ap-southeast-1.aliyuncs.com": "lamaludo-cf.wenext-resource.chat",
-        "lamaludo.oss-accelerate.aliyuncs.com": "lamaludo-cf.wenext-resource.chat"
+        "web.wenext.games": "web-cf.wenext-ludo.chat"
     },
     "hosts": [
         {
