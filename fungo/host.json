@@ -6,7 +6,43 @@
     "fungoback.wenext.website"
   ],
   "dns": {
-    "api.fungo.chat": "lb-6prnvtvk-j2pa7wtbdzkgfnsy.clb.de-tencentclb.cloud",
-    "fungoback.wenext.website": "lb-6prnvtvk-j2pa7wtbdzkgfnsy.clb.de-tencentclb.cloud"
-  }
+    "api.fungo.chat": "lb-6prnvtvk-j2pa7wtbdzkgfnsy.clb.de-tencentclb.cloud"
+  },
+  "user": [
+    {
+      "uids": [
+        100452946,
+        100610057,
+        100597207,
+        100486666,
+        100472569,
+        100557493,
+        100554232,
+        100543212,
+        100461606,
+        100473158,
+        100543212,
+        100495550,
+        100463983,
+        100528915,
+        100528915,
+        100493728,
+        100497675,
+        100497755,
+        100551398
+      ],
+      "replace": {
+        "web.fungo.chat": "web.wenext-fungo.chat"
+      }
+    },
+    {
+      "uids": [
+        100302625,
+        100001010
+      ],
+      "replace": {
+        "fungo-user-1314119829.cos.eu-frankfurt.myqcloud.com": "fungo-user.wenext.media"
+      }
+    }
+  ]
 }
