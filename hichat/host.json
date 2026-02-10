@@ -1,1 +1,18 @@
-{"replace":{"dcdn.hichat.cloud":"api-cf.hichat.cloud","web.hichat.cloud":"web-cf.wenext-hichat.chat"},"host":["api-cf.hichat.cloud"],"backup_host":["hichat.cloud"],"dns":{"hichat.cloud":"43.158.121.233","api-cf.hichat.cloud":"43.158.121.233"}}
+{
+  "replace": {
+    "dcdn.hichat.cloud": "api.wenext-hichat.chat",
+    "web.hichat.cloud": "web-cf.wenext-hichat.chat"
+  },
+  "host": [
+    "api.wenext-hichat.chat"
+  ],
+  "backup_host": [
+    "hichat.cloud",
+    "api-cf.hichat.cloud"
+  ],
+  "dns": {
+    "hichat.cloud": "43.158.121.233",
+    "api-cf.hichat.cloud": "43.158.121.233",
+    "api.wenext-hichat.chat": "lb-6mknvnm6-zsryvohg1kp9q507.clb.de-tencentclb.cloud"
+  }
+}
