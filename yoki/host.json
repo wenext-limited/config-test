@@ -1,1 +1,28 @@
-{"replace":{},"host":["api.yoki.chat"],"backup_host":["api.wenext-yoki.chat"],"dns":{"api.yoki.chat":"8.222.139.194","api.wenext-yoki.chat":"8.222.139.194"}}
+{
+    "replace":
+    {
+        "wenext-yoki-user.oss-ap-southeast-1.aliyuncs.com": "yoki-user-cf.wenext-resource.chat",
+        "wenext-yoki.oss-accelerate-overseas.aliyuncs.com": "yoki-resource-cf.wenext-resource.chat",
+        "wenext-yoki.oss-accelerate.aliyuncs.com": "yoki-resource-cf.wenext-resource.chat",
+        "lama.wenext.media": "lama-cf.wenext-resource.chat",
+        "lama-cf.wenext.media": "lama-cf.wenext-resource.chat",
+        "wenext-lama.oss-accelerate.aliyuncs.com": "lama-cf.wenext-resource.chat",
+        "wenext-lama.oss-ap-southeast-1.aliyuncs.com": "lama-cf.wenext-resource.chat",
+        "wayak-resource.wenext.media": "wyak-resource-cf.wenext-resource.chat",
+        "ludo-system-1314119829.cos.eu-frankfurt.myqcloud.com": "ludo-resource-cf.wenext.media",
+        "ludo-resource.wenext.media": "ludo-resource-cf.wenext-resource.chat"
+    },
+    "host":
+    [
+        "api.yoki.chat"
+    ],
+    "backup_host":
+    [
+        "api.wenext-yoki.chat"
+    ],
+    "dns":
+    {
+        "api.yoki.chat": "8.222.139.194",
+        "api.wenext-yoki.chat": "8.222.139.194"
+    }
+}
