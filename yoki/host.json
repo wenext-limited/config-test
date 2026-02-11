@@ -22,7 +22,7 @@
     ],
     "dns":
     {
-        "api.yoki.chat": "8.222.139.194",
-        "api.wenext-yoki.chat": "8.222.139.194"
+        "api.yoki.chat": "alb-hk3zsjacv9sogrvvuv.ap-southeast-1.alb.aliyuncsslbintl.com",
+        "api.wenext-yoki.chat": "alb-hk3zsjacv9sogrvvuv.ap-southeast-1.alb.aliyuncsslbintl.com"
     }
 }
