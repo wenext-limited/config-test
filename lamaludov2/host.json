@@ -26,8 +26,11 @@
             "nodes": [
                 {
                     "host": "api-fra.wenext-activity.chat",
-                    "weight": 10,
-                    "user_bucket": 10
+                    "weight": 10
+                },
+                {
+                    "host": "api-fra-test.wenext-activity.chat",
+                    "weight": 5
                 }
             ]
         },
