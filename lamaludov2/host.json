@@ -12,6 +12,14 @@
                     "user_bucket": 10
                 },
                 {
+                    "host": "ludo-cf.wenext.games",
+                    "priority": 5
+                },
+                {
+                    "host": "ludo-cf.wenext.plus",
+                    "priority": 5
+                },
+                {
                     "host": "ludo.wenext.games",
                     "priority": 1
                 },
@@ -27,10 +35,6 @@
                 {
                     "host": "api-fra.wenext-activity.chat",
                     "weight": 10
-                },
-                {
-                    "host": "api-fra-test.wenext-activity.chat",
-                    "weight": 5
                 }
             ]
         },
@@ -93,6 +97,11 @@
                     "host": "ludo-system-1314119829.cos.eu-frankfurt.myqcloud.com",
                     "weight": 1,
                     "desc": "腾讯云对象存储域名"
+                },
+                {
+                    "host": "ludo-resource-cf.wenext-resource.chat",
+                    "weight": 1,
+                    "desc": "Cloudflare CDN 加速域名"
                 }
             ]
         },
@@ -129,6 +138,11 @@
                     "host": "lamaludo.oss-ap-southeast-1.aliyuncs.com",
                     "weight": 1,
                     "desc": "阿里云对象存储域名"
+                },
+                {
+                    "host": "lamaludo-cf.wenext-resource.chat",
+                    "weight": 1,
+                    "desc": "Cloudflare CDN 加速域名"
                 }
             ]
         }
