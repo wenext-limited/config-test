@@ -13,19 +13,23 @@
                 },
                 {
                     "host": "ludo-cf.wenext.games",
-                    "priority": 5
+                    "weight": 5
                 },
                 {
                     "host": "ludo-cf.wenext.plus",
-                    "priority": 5
+                    "weight": 5
                 },
                 {
                     "host": "ludo.wenext.games",
-                    "priority": 1
+                    "weight": 1
                 },
                 {
                     "host": "ludo.wenext.plus",
-                    "priority": 1
+                    "weight": 1
+                },
+                {
+                    "host": "ludoback.wenext.website",
+                    "weight": 1
                 }
             ]
         },

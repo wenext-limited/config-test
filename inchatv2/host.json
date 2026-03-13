@@ -1,0 +1,72 @@
+{
+  "replace": {
+    "web.wenextinchat.com": "web-cf.wenext-gameparty.chat"
+  },
+  "hosts": [
+    {
+      "group_name": "main",
+      "nodes": [
+        {
+          "host": "api.wenext-gameparty.chat",
+          "weight": 10,
+          "desc": "主api域名"
+        },
+        {
+          "host": "inchat-cf.wenextinchat.com",
+          "weight": 5,
+          "desc": "备用api域名"
+        },
+        {
+          "host": "wenextinchat.com",
+          "weight": 5,
+          "desc": "备用api域名"
+        },
+        {
+          "host": "dcdn.wenextinchat.com",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "user-cdn-cos",
+      "nodes": [
+        {
+          "host": "inchat-user-cf.wenext-resource.chat",
+          "weight": 10
+        },
+        {
+          "host": "oss-ecs-user.wenext-gameparty.chat",
+          "weight": 1
+        },
+        {
+          "host": "inchat-user-1314119829.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1
+        },
+        {
+          "host": "d233a2cvew3gvh.cloudfront.net",
+          "weight": 1
+        }
+      ],
+      "desc": "腾讯云 用户资源 CDN"
+    },
+    {
+      "group_name": "system-cdn-cos",
+      "nodes": [
+        {
+          "host": "inchat-resource-cf.wenext-resource.chat",
+          "weight": 10
+        },
+        {
+          "host": "oss-ecs-system.wenext-gameparty.chat",
+          "weight": 5
+        }
+      ],
+      "desc": "腾讯云 系统资源 CDN"
+    }
+  ],
+  "dns": {
+    "wenextinchat.com": "43.158.121.73",
+    "inchat-cf.wenextinchat.com": "43.158.121.73",
+    "api.wenext-gameparty.chat": "43.158.121.73"
+  }
+}

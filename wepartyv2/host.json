@@ -13,7 +13,7 @@
         },
         {
           "host": "wepartyback.wenext.website",
-          "priority": 1,
+          "weight": 1,
           "desc": "腾讯云 业务api域名"
         }
       ]
@@ -113,6 +113,16 @@
           "host": "wyak.oss-ap-southeast-1.aliyuncs.com",
           "weight": 1,
           "desc": "阿里云对象存储域名"
+        },
+        {
+          "host": "wyak-user-cf.wenext-resource.chat",
+          "weight": 1,
+          "desc": "Cloudflare CDN 加速域名"
+        },
+        {
+          "host": "wyak-user.wenext.media",
+          "weight": 1,
+          "desc": "腾讯云CDN 加速域名"
         }
       ]
     }

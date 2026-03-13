@@ -1,0 +1,119 @@
+{
+  "replace": {
+    "web.wenext.chat": "web-cf.wenext-wyak.chat"
+  },
+  "hosts": [
+    {
+      "group_name": "main",
+      "nodes": [
+        {
+          "host": "api.wenext-wyak.chat",
+          "weight": 10,
+          "desc": "主api域名"
+        },
+        {
+          "host": "wyak-cf.wenext.technology",
+          "weight": 5,
+          "desc": "备用api域名"
+        },
+        {
+          "host": "wyakback.wenext.website",
+          "weight": 5,
+          "desc": "备用api域名"
+        },
+        {
+          "host": "wyakeo.wenext.chat",
+          "weight": 1
+        },
+        {
+          "host": "wyakeo.wenext.technology",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "user-cdn-cos",
+      "nodes": [
+        {
+          "host": "wyak-user-cf.wenext-resource.chat",
+          "weight": 10
+        },
+        {
+          "host": "oss-ecs-user.wenext-wyak.chat",
+          "weight": 5
+        },
+        {
+          "host": "wyak-user.wenext.media",
+          "weight": 5
+        },
+        {
+          "host": "wyak-cf.wenext.media",
+          "weight": 1
+        },
+        {
+          "host": "wyak.oss-accelerate.aliyuncs.com",
+          "weight": 1
+        },
+        {
+          "host": "wyak.oss-ap-southeast-1.aliyuncs.com",
+          "weight": 1
+        },
+        {
+          "host": "d2m47rrxncwxbt.cloudfront.net",
+          "weight": 1
+        }
+      ],
+      "desc": "腾讯云 用户资源 CDN"
+    },
+    {
+      "group_name": "system-cdn-cos",
+      "nodes": [
+        {
+          "host": "wyak-resource-cf.wenext-resource.chat",
+          "weight": 10
+        },
+        {
+          "host": "oss-ecs-system.wenext-wyak.chat",
+          "weight": 5
+        },
+        {
+          "host": "wayak-resource.wenext.media",
+          "weight": 5
+        },
+        {
+          "host": "wayak-resource-h5.wenext.media",
+          "weight": 1
+        },
+        {
+          "host": "wayak-system-1314119829.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1
+        },
+        {
+          "host": "d40f5dilfw079.cloudfront.net",
+          "weight": 1
+        }
+      ],
+      "desc": "腾讯云 系统资源 CDN"
+    }
+  ],
+  "dns": {
+    "wayak.wenext.chat": "43.131.7.185",
+    "wayak.wenext.technology": "43.131.7.185",
+    "wyakeo.wenext.chat": "43.131.7.185",
+    "wyakeo.wenext.technology": "43.131.7.185",
+    "wyakback.wenext.website": "162.62.115.86",
+    "wyak-cf.wenext.technology": "43.131.7.185",
+    "wyak-cf.wenext.chat": "43.131.7.185",
+    "api.wenext-wyak.chat": "43.131.7.185"
+  },
+  "user": [
+    {
+      "uids": [
+        1591951
+      ],
+      "replace": {
+        "web-cf.wenext-wyak.chat": "web.wenext.chat"
+      }
+    }
+  ]
+}

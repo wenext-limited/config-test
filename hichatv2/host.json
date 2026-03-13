@@ -1,0 +1,36 @@
+{
+  "replace": {
+    "web.hichat.cloud": "web-cf.wenext-hichat.chat"
+  },
+  "hosts": [
+    {
+      "group_name": "main",
+      "nodes": [
+        {
+          "host": "api.wenext-hichat.chat",
+          "weight": 10,
+          "desc": "主api域名"
+        },
+        {
+          "host": "hichat.cloud",
+          "weight": 5,
+          "desc": "备用api域名"
+        },
+        {
+          "host": "api-cf.hichat.cloud",
+          "weight": 5,
+          "desc": "备用api域名"
+        },
+        {
+          "host": "dcdn.hichat.cloud",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "dns": {
+    "hichat.cloud": "43.158.121.233",
+    "api-cf.hichat.cloud": "43.158.121.233",
+    "api.wenext-hichat.chat": "lb-6mknvnm6-zsryvohg1kp9q507.clb.de-tencentclb.cloud"
+  }
+}
