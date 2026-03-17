@@ -39,16 +39,24 @@
           "weight": 10
         },
         {
-          "host": "oss-ecs-user.wenext-wyak.chat",
-          "weight": 5
-        },
-        {
           "host": "wyak-user.wenext.media",
           "weight": 5
         },
         {
+          "host": "oss-ecs-user.wenext-wyak.chat",
+          "weight": 2
+        },
+        {
           "host": "wyak-cf.wenext.media",
-          "weight": 1
+          "weight": 2
+        },
+        {
+          "host": "wyak-cdn.wenext.love",
+          "weight": 2
+        },
+        {
+          "host": "d2m47rrxncwxbt.cloudfront.net",
+          "weight": 2
         },
         {
           "host": "wyak.oss-accelerate.aliyuncs.com",
@@ -56,10 +64,6 @@
         },
         {
           "host": "wyak.oss-ap-southeast-1.aliyuncs.com",
-          "weight": 1
-        },
-        {
-          "host": "d2m47rrxncwxbt.cloudfront.net",
           "weight": 1
         }
       ],
@@ -82,14 +86,14 @@
         },
         {
           "host": "wayak-resource-h5.wenext.media",
-          "weight": 1
-        },
-        {
-          "host": "wayak-system-1314119829.cos.eu-frankfurt.myqcloud.com",
-          "weight": 1
+          "weight": 2
         },
         {
           "host": "d40f5dilfw079.cloudfront.net",
+          "weight": 2
+        },
+        {
+          "host": "wayak-system-1314119829.cos.eu-frankfurt.myqcloud.com",
           "weight": 1
         }
       ],
