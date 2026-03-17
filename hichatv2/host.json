@@ -26,6 +26,42 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "group_name": "user-cdn-ali",
+      "nodes": [
+        {
+          "host": "hichat-user-cf.wenext-resource.chat",
+          "weight": 10
+        },
+        {
+          "host": "d1iho3og6a6fhc.cloudfront.net",
+          "weight": 5
+        },
+        {
+          "host": "hichat-u.oss-accelerate.aliyuncs.com",
+          "weight": 1
+        }
+      ],
+      "desc": "阿里云用户资源CDN"
+    },
+    {
+      "group_name": "system-cdn-cos",
+      "nodes": [
+        {
+          "host": "hichat-resource-cf.wenext-resource.chat",
+          "weight": 10
+        },
+        {
+          "host": "inchat-resource.wenext.media",
+          "weight": 5
+        },
+        {
+          "host": "inchat-system-1314119829.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1
+        }
+      ],
+      "desc": "腾讯云系统资源CDN"
     }
   ],
   "dns": {
