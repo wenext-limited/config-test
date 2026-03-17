@@ -36,14 +36,14 @@
         },
         {
           "host": "oss-ecs-user.wenext-gameparty.chat",
-          "weight": 1
-        },
-        {
-          "host": "inchat-user-1314119829.cos.eu-frankfurt.myqcloud.com",
-          "weight": 1
+          "weight": 2
         },
         {
           "host": "d233a2cvew3gvh.cloudfront.net",
+          "weight": 2
+        },
+        {
+          "host": "inchat-user-1314119829.cos.eu-frankfurt.myqcloud.com",
           "weight": 1
         }
       ],
@@ -59,7 +59,20 @@
         {
           "host": "oss-ecs-system.wenext-gameparty.chat",
           "weight": 5
+        },
+        {
+          "host": "inchat-resource.wenext.media",
+          "weight": 2
+        },
+        {
+          "host": "d315l9epjhme4y.cloudfront.net",
+          "weight": 2
+        },
+        {
+          "host": "inchat-system-1314119829.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1
         }
+        
       ],
       "desc": "腾讯云 系统资源 CDN"
     }
