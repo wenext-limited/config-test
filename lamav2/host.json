@@ -8,23 +8,23 @@
       "nodes": [
         {
           "host": "api.wenext-lama.chat",
-          "weight": 10,
-          "desc": "主api域名"
+          "weight": 10
         },
         {
           "host": "lama.wenext.love",
-          "weight": 5,
-          "desc": "备用api域名"
+          "weight": 5
         },
         {
           "host": "lama.wenext.icu",
-          "weight": 5,
-          "desc": "备用api域名"
+          "weight": 5
         },
         {
           "host": "appback.wenext.website",
-          "weight": 5,
-          "desc": "备用api域名"
+          "weight": 5
+        },
+        {
+          "host": "api.wenext.love",
+          "weight": 5
         },
         {
           "host": "lamaeo.wenext.icu",
@@ -52,19 +52,23 @@
           "weight": 5
         },
         {
+          "host": "lama.wenext.media",
+          "weight": 2
+        },
+        {
+          "host": "d3mrx4896f51cq.cloudfront.net",
+          "weight": 2
+        },
+        {
+          "host": "wenext-lama.oss-accelerate-overseas.aliyuncs.com",
+          "weight": 1
+        },
+        {
           "host": "wenext-lama.oss-ap-southeast-1.aliyuncs.com",
           "weight": 1
         },
         {
           "host": "wenext-lama.oss-accelerate.aliyuncs.com",
-          "weight": 1
-        },
-        {
-          "host": "lama.wenext.media",
-          "weight": 1
-        },
-        {
-          "host": "wenext-lama.oss-accelerate-overseas.aliyuncs.com",
           "weight": 1
         }
       ],
