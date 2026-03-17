@@ -24,7 +24,20 @@
         },
         {
           "host": "fungo-user-1314119829.cos.eu-frankfurt.myqcloud.com",
-          "weight": 5
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "system-cdn-cos",
+      "nodes": [
+        {
+          "host": "fungo-resource.wenext.media",
+          "weight": 10
+        },
+        {
+          "host": "fungo-system-1314119829.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1
         }
       ]
     }
