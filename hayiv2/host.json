@@ -1,5 +1,45 @@
 {
-  "replace": {},
-  "hosts": [],
-  "dns": {}
+  "hosts": [
+    {
+      "group_name": "main",
+      "nodes": [
+        {
+          "host": "api.hayi.chat",
+          "weight": 10,
+          "desc": "主api域名"
+        },
+        {
+          "host": "hayiback.wenext.website",
+          "weight": 5,
+          "desc": "备用api域名"
+        }
+      ]
+    },
+    {
+      "group_name": "user-cdn-cos",
+      "nodes": [
+        {
+          "host": "hayi-user-cf.wenext-resource.chat",
+          "weight": 10
+        },
+        {
+          "host": "hayi-user-1371118896.cos.accelerate.myqcloud.com",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "system-cdn-cos",
+      "nodes": [
+        {
+          "host": "hayi-resource-cf.wenext-resource.chat",
+          "weight": 10
+        },
+        {
+          "host": "hayi-system-1371118896.cos.accelerate.myqcloud.com",
+          "weight": 1
+        }
+      ]
+    }
+  ]
 }
