@@ -36,6 +36,10 @@
           "weight": 10
         },
         {
+          "host": "fungo-resource-cf.wenext-resource.chat",
+          "weight": 5
+        },
+        {
           "host": "fungo-system-1314119829.cos.eu-frankfurt.myqcloud.com",
           "weight": 1
         }
