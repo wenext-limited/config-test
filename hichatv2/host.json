@@ -28,6 +28,20 @@
       ]
     },
     {
+      "group_name": "wenext-activity",
+      "desc": "新活动平台",
+      "nodes": [
+        {
+          "host": "api-fra.wenext-activity.chat",
+          "weight": 10
+        },
+        {
+          "host": "api-fra.wenext-activity.top",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "group_name": "user-cdn-ali",
       "nodes": [
         {

@@ -37,6 +37,20 @@
       ]
     },
     {
+      "group_name": "wenext-activity",
+      "desc": "新活动平台",
+      "nodes": [
+        {
+          "host": "api-sg.wenext-activity.chat",
+          "weight": 10
+        },
+        {
+          "host": "api-sg.wenext-activity.top",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "group_name": "cdn-oss",
       "nodes": [
         {
