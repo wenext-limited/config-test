@@ -1,0 +1,46 @@
+{
+  "replace": {},
+  "hosts": [
+    {
+      "group_name": "main",
+      "nodes": [
+        {
+          "host": "api.gmparty.com",
+          "weight": 10,
+          "desc": "主api域名"
+        }
+      ]
+    },
+    {
+      "group_name": "user-cdn-cos",
+      "nodes": [
+        {
+          "host": "gmparty-user-cf.wenext-resource.chat",
+          "weight": 10
+        },
+        {
+          "host": "gmparty-user-1371118896.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1
+        }
+      ],
+      "desc": "腾讯云 用户资源 CDN"
+    },
+    {
+      "group_name": "system-cdn-cos",
+      "nodes": [
+        {
+          "host": "gmparty-resource-cf.wenext-resource.chat",
+          "weight": 10
+        },
+        {
+          "host": "gmparty-system-1371118896.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1
+        }
+      ],
+      "desc": "腾讯云 系统资源 CDN"
+    }
+  ],
+  "dns": {
+    "api.gmparty.com": "104.18.0.237"
+  }
+}
