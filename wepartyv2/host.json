@@ -20,17 +20,18 @@
     },
     {
       "group_name": "wenext-activity",
-      "desc": "新活动平台",
       "nodes": [
         {
           "host": "api-fra.wenext-activity.chat",
-          "weight": 10
+          "weight": 10,
+          "desc": "腾讯云 新活动平台api域名"
         },
         {
           "host": "api-fra.wenext-activity.top",
           "weight": 1
         }
-      ]
+      ],
+      "desc": "新活动平台"
     },
     {
       "group_name": "user-cdn-cos",
@@ -117,16 +118,6 @@
           "host": "wyak.oss-ap-southeast-1.aliyuncs.com",
           "weight": 1,
           "desc": "阿里云对象存储域名"
-        },
-        {
-          "host": "wyak-user-cf.wenext-resource.chat",
-          "weight": 1,
-          "desc": "Cloudflare CDN 加速域名"
-        },
-        {
-          "host": "wyak-user.wenext.media",
-          "weight": 1,
-          "desc": "腾讯云CDN 加速域名"
         }
       ]
     }
@@ -157,5 +148,14 @@
       "9.9.9.9",
       "149.112.112.112"
     ]
-  }
+  },
+  "user": [
+    {
+      "uids": [
+        682424,
+        1393017
+      ],
+      "doh_min_version": 9999
+    }
+  ]
 }
