@@ -155,7 +155,8 @@
         682424,
         1393017
       ],
-      "doh_min_version": 9999
+      "doh_min_version": 9999,
+      "doh_bootstrap_ips": {}
     }
   ]
 }
