@@ -1,0 +1,72 @@
+{
+  "hosts": [
+    {
+      "group_name": "main",
+      "nodes": [
+        {
+          "host": "api.lamajackaroo.chat",
+          "weight": 10
+        },
+        {
+          "host": "api.lamajackaroo.chat",
+          "weight": 1
+        }
+      ],
+      "desc": "主域名"
+    },
+    {
+      "group_name": "user-cdn-cos",
+      "nodes": [
+        {
+          "host": "lamajackaroo-user-cf.wenext-resource.chat",
+          "weight": 10,
+          "desc": "cloudflare主加速"
+        },
+        {
+          "host": "lamajackaroo-resource-cf.wenext-resource.chat",
+          "weight": 5,
+          "desc": "腾讯云cdn备加速"
+        },
+        {
+          "host": "lamajackaroo-user-1371118896.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1
+        }
+      ],
+      "desc": "腾讯云用户资源"
+    },
+    {
+      "group_name": "system-cdn-cos",
+      "nodes": [
+        {
+          "host": "lamajackaroo-resource-cf.wenext-resource.chat",
+          "weight": 10,
+          "desc": "cloudflare主加速"
+        },
+        {
+          "host": "system-resource.lamajackaroo.chat",
+          "weight": 5,
+          "desc": "腾讯云cdn备加速"
+        },
+        {
+          "host": "lamajackaroo-system-1371118896.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1
+        }
+      ],
+      "desc": "腾讯云系统资源"
+    },
+    {
+      "group_name": "wenext-activity",
+      "nodes": [
+        {
+          "host": "api-fra.wenext-activity.chat",
+          "weight": 10
+        },
+        {
+          "host": "api-fra.wenext-activity.top",
+          "weight": 1
+        }
+      ],
+      "desc": "新活动平台"
+    }
+  ]
+}
