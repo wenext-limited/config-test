@@ -23,7 +23,7 @@
           "desc": "cloudflare主加速"
         },
         {
-          "host": "lamajackaroo-resource-cf.wenext-resource.chat",
+          "host": "user-resource.lamajackaroo.chat",
           "weight": 5,
           "desc": "腾讯云cdn备加速"
         },
