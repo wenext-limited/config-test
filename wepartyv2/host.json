@@ -2,6 +2,10 @@
   "replace": {
     "weparty.wenext.cloud": "weparty-cf.wenext.cloud"
   },
+  "next_config_urls": [
+    "https://cdn.jsdelivr.net/gh/wenext-limited/config-test@main/wepartyv2/host.json",
+    "https://drive.usercontent.google.com/download?id=56b774aa6b8fe1ee83274190e915e144253f455e&export=download"
+  ],
   "hosts": [
     {
       "group_name": "main",
