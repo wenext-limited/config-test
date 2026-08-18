@@ -9,7 +9,7 @@
       "nodes": [
         {
           "host": "lamaludo-cf.wenext.media",
-          "weight": 10,
+          "weight": 1,
           "desc": "Cloudflare CDN 加速域名"
         },
         {
