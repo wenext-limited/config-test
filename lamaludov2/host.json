@@ -9,7 +9,7 @@
       "nodes": [
         {
           "host": "lamaludo-cf.wenext.media",
-          "weight": 1,
+          "weight": 4,
           "desc": "Cloudflare CDN 加速域名"
         },
         {
@@ -19,12 +19,12 @@
         },
         {
           "host": "d350ifinc15i4w.cloudfront.net",
-          "weight": 2,
+          "weight": 9,
           "desc": "AWS CDN 加速域名"
         },
         {
           "host": "oss-ecs-user-ali.wenext-ludo.chat",
-          "weight": 2,
+          "weight": 8,
           "desc": "lb + nginx 反代oss 域名"
         },
         {
