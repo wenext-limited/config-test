@@ -18,7 +18,7 @@
           "desc": "腾讯云CDN 加速域名"
         },
         {
-          "host": "d350ifinc15i4w.cloudfront.net",
+          "host": "d350ifinc15i4we.cloudfront.net",
           "weight": 9,
           "desc": "AWS CDN 加速域名"
         },
