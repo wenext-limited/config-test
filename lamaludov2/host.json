@@ -1,164 +1,207 @@
 {
-    "replace": {
-        "web.wenext.games": "web-cf.wenext-ludo.chat"
-    },
-    "hosts": [
+  "replace": {
+    "web.wenext.games": "web-cf.wenext-ludo.chat"
+  },
+  "upload_hosts": [
+    {
+      "group_name": "user-cdn-ali-upload",
+      "desc": "阿里云 用户资源 CDN上传",
+      "nodes": [
         {
-            "group_name": "main",
-            "nodes": [
-                {
-                    "host": "api.wenext-ludo.chat",
-                    "weight": 10,
-                    "user_bucket": 10
-                },
-                {
-                    "host": "ludo-cf.wenext.games",
-                    "weight": 5
-                },
-                {
-                    "host": "ludo-cf.wenext.plus",
-                    "weight": 5
-                },
-                {
-                    "host": "ludo.wenext.games",
-                    "weight": 1
-                },
-                {
-                    "host": "ludo.wenext.plus",
-                    "weight": 1
-                },
-                {
-                    "host": "ludoback.wenext.website",
-                    "weight": 1
-                }
-            ]
+          "host": "lamaludo-cf.wenext.media",
+          "weight": 10,
+          "desc": "Cloudflare CDN 加速域名"
         },
         {
-            "group_name": "wenext-activity",
-            "desc": "新活动平台",
-            "nodes": [
-                {
-                    "host": "api-fra.wenext-activity.chat",
-                    "weight": 10
-                },
-                {
-                    "host": "api-fra.wenext-activity.top",
-                    "weight": 1
-                }
-            ]
+          "host": "lamaludo-user.wenext.media",
+          "weight": 5,
+          "desc": "腾讯云CDN 加速域名"
         },
         {
-            "group_name": "user-cdn-cos",
-            "desc": "腾讯云 用户资源 CDN",
-            "nodes": [
-                {
-                    "host": "ludo-user-cf.wenext-resource.chat",
-                    "weight": 10,
-                    "desc": "Cloudflare CDN 加速域名"
-                },
-                {
-                    "host": "ludo-user.wenext.media",
-                    "weight": 5,
-                    "desc": "腾讯云CDN 加速域名"
-                },
-                {
-                    "host": "d3cspu46wou5qn.cloudfront.net",
-                    "weight": 2,
-                    "desc": "AWS CDN 加速域名"
-                },
-                {
-                    "host": "oss-ecs-user.wenext-ludo.chat",
-                    "weight": 2,
-                    "desc": "lb + nginx反代oss 域名"
-                },
-                {
-                    "host": "ludo-1314119829.cos.eu-frankfurt.myqcloud.com",
-                    "weight": 1,
-                    "desc": "腾讯云对象存储域名"
-                }
-            ]
+          "host": "d350ifinc15i4w.cloudfront.net",
+          "weight": 2,
+          "desc": "AWS CDN 加速域名"
         },
         {
-            "group_name": "system-cdn-cos",
-            "desc": "腾讯云 系统资源 CDN",
-            "nodes": [
-                {
-                    "host": "ludo-resource-cf.wenext.media",
-                    "weight": 10,
-                    "desc": "Cloudflare CDN 加速域名"
-                },
-                {
-                    "host": "ludo-resource.wenext.media",
-                    "weight": 5,
-                    "desc": "腾讯云CDN 加速域名"
-                },
-                {
-                    "host": "dbzt1cnkzzc8n.cloudfront.net",
-                    "weight": 2,
-                    "desc": "AWS CDN 加速域名"
-                },
-                {
-                    "host": "oss-ecs-system.wenext-ludo.chat",
-                    "weight": 2,
-                    "desc": "lb + nginx反代oss 域名"
-                },
-                {
-                    "host": "ludo-system-1314119829.cos.eu-frankfurt.myqcloud.com",
-                    "weight": 1,
-                    "desc": "腾讯云对象存储域名"
-                },
-                {
-                    "host": "ludo-resource-cf.wenext-resource.chat",
-                    "weight": 1,
-                    "desc": "Cloudflare CDN 加速域名"
-                }
-            ]
+          "host": "oss-ecs-user-ali.wenext-ludo.chat",
+          "weight": 2,
+          "desc": "lb + nginx 反代oss 域名"
         },
         {
-            "group_name": "user-cdn-ali",
-            "desc": "阿里云 用户资源 CDN",
-            "nodes": [
-                {
-                    "host": "lamaludo-cf.wenext.media",
-                    "weight": 10,
-                    "desc": "Cloudflare CDN 加速域名"
-                },
-                {
-                    "host": "lamaludo-user.wenext.media",
-                    "weight": 5,
-                    "desc": "腾讯云CDN 加速域名"
-                },
-                {
-                    "host": "d350ifinc15i4w.cloudfront.net",
-                    "weight": 2,
-                    "desc": "AWS CDN 加速域名"
-                },
-                {
-                    "host": "oss-ecs-user-ali.wenext-ludo.chat",
-                    "weight": 2,
-                    "desc": "lb + nginx 反代oss 域名"
-                },
-                {
-                    "host": "lamaludo.oss-accelerate.aliyuncs.com",
-                    "weight": 1,
-                    "desc": "阿里云对象存储域名"
-                },
-                {
-                    "host": "lamaludo.oss-ap-southeast-1.aliyuncs.com",
-                    "weight": 1,
-                    "desc": "阿里云对象存储域名"
-                },
-                {
-                    "host": "lamaludo-cf.wenext-resource.chat",
-                    "weight": 1,
-                    "desc": "Cloudflare CDN 加速域名"
-                }
-            ]
+          "host": "lamaludo.oss-accelerate.aliyuncs.com",
+          "weight": 1,
+          "desc": "阿里云对象存储域名"
+        },
+        {
+          "host": "lamaludo.oss-ap-southeast-1.aliyuncs.com",
+          "weight": 1,
+          "desc": "阿里云对象存储域名"
+        },
+        {
+          "host": "oss-accelerate.aliyuncs.com",
+          "weight": 1,
+          "desc": "Cloudflare CDN 加速域名"
         }
-    ],
-    "dns": {
-        "api.wenext-ludo.chat": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud",
-        "ludo-cf.wenext.games": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud",
-        "ludo-cf.wenext.plus": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud"
+      ]
     }
+  ],
+  "hosts": [
+    {
+      "group_name": "main",
+      "nodes": [
+        {
+          "host": "api.wenext-ludo.chat",
+          "weight": 10,
+          "user_bucket": 10
+        },
+        {
+          "host": "ludo-cf.wenext.games",
+          "weight": 5
+        },
+        {
+          "host": "ludo-cf.wenext.plus",
+          "weight": 5
+        },
+        {
+          "host": "ludo.wenext.games",
+          "weight": 1
+        },
+        {
+          "host": "ludo.wenext.plus",
+          "weight": 1
+        },
+        {
+          "host": "ludoback.wenext.website",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "wenext-activity",
+      "desc": "新活动平台",
+      "nodes": [
+        {
+          "host": "api-fra.wenext-activity.chat",
+          "weight": 10
+        },
+        {
+          "host": "api-fra.wenext-activity.top",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "user-cdn-cos",
+      "desc": "腾讯云 用户资源 CDN",
+      "nodes": [
+        {
+          "host": "ludo-user-cf.wenext-resource.chat",
+          "weight": 10,
+          "desc": "Cloudflare CDN 加速域名"
+        },
+        {
+          "host": "ludo-user.wenext.media",
+          "weight": 5,
+          "desc": "腾讯云CDN 加速域名"
+        },
+        {
+          "host": "d3cspu46wou5qn.cloudfront.net",
+          "weight": 2,
+          "desc": "AWS CDN 加速域名"
+        },
+        {
+          "host": "oss-ecs-user.wenext-ludo.chat",
+          "weight": 2,
+          "desc": "lb + nginx反代oss 域名"
+        },
+        {
+          "host": "ludo-1314119829.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1,
+          "desc": "腾讯云对象存储域名"
+        }
+      ]
+    },
+    {
+      "group_name": "system-cdn-cos",
+      "desc": "腾讯云 系统资源 CDN",
+      "nodes": [
+        {
+          "host": "ludo-resource-cf.wenext.media",
+          "weight": 10,
+          "desc": "Cloudflare CDN 加速域名"
+        },
+        {
+          "host": "ludo-resource.wenext.media",
+          "weight": 5,
+          "desc": "腾讯云CDN 加速域名"
+        },
+        {
+          "host": "dbzt1cnkzzc8n.cloudfront.net",
+          "weight": 2,
+          "desc": "AWS CDN 加速域名"
+        },
+        {
+          "host": "oss-ecs-system.wenext-ludo.chat",
+          "weight": 2,
+          "desc": "lb + nginx反代oss 域名"
+        },
+        {
+          "host": "ludo-system-1314119829.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1,
+          "desc": "腾讯云对象存储域名"
+        },
+        {
+          "host": "ludo-resource-cf.wenext-resource.chat",
+          "weight": 1,
+          "desc": "Cloudflare CDN 加速域名"
+        }
+      ]
+    },
+    {
+      "group_name": "user-cdn-ali",
+      "desc": "阿里云 用户资源 CDN",
+      "nodes": [
+        {
+          "host": "lamaludo-cf.wenext.media",
+          "weight": 10,
+          "desc": "Cloudflare CDN 加速域名"
+        },
+        {
+          "host": "lamaludo-user.wenext.media",
+          "weight": 5,
+          "desc": "腾讯云CDN 加速域名"
+        },
+        {
+          "host": "d350ifinc15i4w.cloudfront.net",
+          "weight": 2,
+          "desc": "AWS CDN 加速域名"
+        },
+        {
+          "host": "oss-ecs-user-ali.wenext-ludo.chat",
+          "weight": 2,
+          "desc": "lb + nginx 反代oss 域名"
+        },
+        {
+          "host": "lamaludo.oss-accelerate.aliyuncs.com",
+          "weight": 1,
+          "desc": "阿里云对象存储域名"
+        },
+        {
+          "host": "lamaludo.oss-ap-southeast-1.aliyuncs.com",
+          "weight": 1,
+          "desc": "阿里云对象存储域名"
+        },
+        {
+          "host": "lamaludo-cf.wenext-resource.chat",
+          "weight": 1,
+          "desc": "Cloudflare CDN 加速域名"
+        }
+      ]
+    }
+  ],
+  "dns": {
+    "api.wenext-ludo.chat": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud",
+    "ludo-cf.wenext.games": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud",
+    "ludo-cf.wenext.plus": "lb-p7xw30aq-a5jifyxprmnvbo76.clb.de-tencentclb.cloud"
+  }
 }
