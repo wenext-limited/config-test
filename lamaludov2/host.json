@@ -23,6 +23,11 @@
           "desc": "AWS CDN 加速域名"
         },
         {
+          "host": "oss-ecs-user-ali.wenext-ludo.chat",
+          "weight": 8,
+          "desc": "lb + nginx 反代oss 域名"
+        },
+        {
           "host": "lamaludo.oss-accelerate.aliyuncs.com",
           "weight": 1,
           "desc": "阿里云对象存储域名"
