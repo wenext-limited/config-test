@@ -1,7 +1,25 @@
 {
-  "replace": {
-  },
-  "next_config_urls": [
+  "upload_hosts": [
+    {
+      "group_name": "new_group",
+      "nodes": [
+        {
+          "host": "weparty-user-1314119829.cos.eu-frankfurt.myqcloud.com",
+          "weight": 10,
+          "desc": "加速域名1"
+        },
+        {
+          "host": "weparty-user-1314119829.cos.accelerate.myqcloud.com",
+          "weight": 9,
+          "desc": "加速域名2"
+        },
+        {
+          "host": "weparty-user-1314119829.cos.eu-frankfurt.myqcloud.com",
+          "weight": 1,
+          "desc": "源站域名"
+        }
+      ]
+    }
   ],
   "hosts": [
     {
@@ -16,14 +34,14 @@
     },
     {
       "group_name": "wenext-activity",
+      "desc": "新活动平台",
       "nodes": [
         {
           "host": "api-fra.wenext-activity.chat",
           "weight": 10,
           "desc": "腾讯云 新活动平台api域名"
         }
-      ],
-      "desc": "新活动平台"
+      ]
     },
     {
       "group_name": "user-cdn-cos",
@@ -66,8 +84,6 @@
     "oss-ecs-system.wenext.cloud": "47.236.231.189",
     "oss-ecs-user.wenext.cloud": "47.236.231.189"
   },
-  "doh_ip_verifier_type": 2,
-  "doh_check_enable": false,
   "doh_bootstrap_ips": {
     "cloudflare-dns.com": [
       "1.1.1.1",
@@ -85,5 +101,6 @@
       "9.9.9.9",
       "149.112.112.112"
     ]
-  }
+  },
+  "doh_check_enable": false
 }
