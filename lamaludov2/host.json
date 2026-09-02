@@ -13,11 +13,6 @@
         },
         {
           "host": "lamaludo.oss-accelerate.aliyuncs.com",
-          "weight": 9,
-          "desc": "加速域名2"
-        },
-        {
-          "host": "lamaludo.oss-accelerate.aliyuncs.com",
           "weight": 1,
           "desc": "源站域名"
         }
