@@ -59,7 +59,7 @@
         },
         {
           "host": "api-fra.wenext-activity.top",
-          "weight": 1
+          "weight": 2
         }
       ]
     },
