@@ -17,6 +17,11 @@
                     "desc": "加速域名2"
                 },
                 {
+                    "host": "dej9gqpqi3qlh.cloudfront.net",
+                    "weight": 8,
+                    "desc": "AWS CDN 加速域名"
+                },
+                {
                     "host": "weparty-user-1314119829.cos.eu-frankfurt.myqcloud.com",
                     "weight": 1,
                     "desc": "源站域名"
