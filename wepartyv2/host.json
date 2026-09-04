@@ -7,11 +7,6 @@
             "group_name": "new_group",
             "nodes": [
                 {
-                    "host": "weparty-user-1314119829.cos.eu-frankfurt.myqcloud.com",
-                    "weight": 10,
-                    "desc": "加速域名1"
-                },
-                {
                     "host": "weparty-user-1314119829.cos.accelerate.myqcloud.com",
                     "weight": 9,
                     "desc": "加速域名2"
