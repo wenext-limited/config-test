@@ -52,6 +52,23 @@
         {
           "host": "hayi-system-1371118896.cos.eu-frankfurt.myqcloud.com",
           "weight": 1
+        },
+        {
+          "host": "hayi-resource.wenext.media",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "web",
+      "nodes": [
+        {
+          "host": "web.hayi.chat",
+          "weight": 10
+        },
+        {
+          "host": "web.wenext-hayi.chat",
+          "weight": 1
         }
       ]
     }
