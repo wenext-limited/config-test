@@ -52,6 +52,10 @@
         {
           "host": "hayi-system-1371118896.cos.eu-frankfurt.myqcloud.com",
           "weight": 1
+        },
+        {
+          "host": "hayi-resource.wenext.media",
+          "weight": 1
         }
       ]
     }
