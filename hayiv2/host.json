@@ -37,7 +37,7 @@
           "weight": 10
         },
         {
-          "host": "hayi-user-1371118896.cos.accelerate.myqcloud.com",
+          "host": "hayi-user-1371118896.cos.eu-frankfurt.myqcloud.com",
           "weight": 1
         }
       ]
@@ -50,10 +50,14 @@
           "weight": 10
         },
         {
-          "host": "hayi-system-1371118896.cos.accelerate.myqcloud.com",
+          "host": "hayi-system-1371118896.cos.eu-frankfurt.myqcloud.com",
           "weight": 1
         }
       ]
     }
-  ]
+  ],
+  "dns": {
+    "api.hayi.chat": "lb-mdjm00ki-bp3tf7lvau98skex.clb.de-tencentclb.cloud",
+    "hayiback.wenext.website": "lb-mdjm00ki-bp3tf7lvau98skex.clb.de-tencentclb.cloud"
+  }
 }
