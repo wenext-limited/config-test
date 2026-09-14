@@ -58,23 +58,17 @@
           "weight": 1
         }
       ]
-    },
-    {
-      "group_name": "web",
-      "nodes": [
-        {
-          "host": "web.hayi.chat",
-          "weight": 10
-        },
-        {
-          "host": "web.wenext-hayi.chat",
-          "weight": 1
-        }
-      ]
     }
   ],
   "dns": {
     "api.hayi.chat": "lb-mdjm00ki-bp3tf7lvau98skex.clb.de-tencentclb.cloud",
     "hayiback.wenext.website": "lb-mdjm00ki-bp3tf7lvau98skex.clb.de-tencentclb.cloud"
+  },
+  "country": {
+    "AE": {
+      "replace": {
+        "web.hayi.chat": "web.wenext-hayi.chat"
+      }
+    }
   }
 }
