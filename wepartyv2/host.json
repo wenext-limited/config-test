@@ -4,7 +4,7 @@
     },
     "upload_hosts": [
         {
-            "group_name": "new_group",
+            "group_name": "user-upload-cos",
             "nodes": [
                 {
                     "host": "weparty-user-1314119829.cos.accelerate.myqcloud.com",
