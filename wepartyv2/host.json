@@ -8,8 +8,8 @@
             "nodes": [
                 {
                     "host": "weparty-user-1314119829.cos.accelerate.myqcloud.com",
-                    "weight": 9,
-                    "desc": "加速域名2"
+                    "weight": 10,
+                    "desc": "加速域名"
                 },
                 {
                     "host": "weparty-user-1314119829.cos.eu-frankfurt.myqcloud.com",
