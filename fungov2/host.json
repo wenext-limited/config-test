@@ -2,6 +2,7 @@
   "hosts": [
     {
       "group_name": "main",
+      "threshold": 6,
       "nodes": [
         {
           "host": "api.fungo.chat",
@@ -12,6 +13,20 @@
           "host": "fungoback.wenext.website",
           "weight": 5,
           "desc": "备用api域名"
+        }
+      ]
+    },
+    {
+      "group_name": "web",
+      "threshold": 2,
+      "nodes": [
+        {
+          "host": "web.fungo.chat",
+          "weight": 10
+        },
+        {
+          "host": "web.wenext-fungo.chat",
+          "weight": 5
         }
       ]
     },
