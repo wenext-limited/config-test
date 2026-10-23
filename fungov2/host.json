@@ -81,31 +81,6 @@
   "user": [
     {
       "uids": [
-        100014734
-      ],
-      "hosts": [
-        {
-          "group_name": "web",
-          "threshold": 2,
-          "nodes": [
-            {
-              "host": "web-antiban-probe.invalid",
-              "weight": 100
-            },
-            {
-              "host": "web.fungo.chat",
-              "weight": 10
-            },
-            {
-              "host": "web.wenext-fungo.chat",
-              "weight": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "uids": [
         100452946,
         100610057,
         100597207,
