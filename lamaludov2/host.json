@@ -50,6 +50,20 @@
       ]
     },
     {
+      "group_name": "web",
+      "threshold": 2,
+      "nodes": [
+        {
+          "host": "web-cf.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "web.wenext.games",
+          "weight": 5
+        }
+      ]
+    },
+    {
       "group_name": "wenext-activity",
       "desc": "新活动平台",
       "nodes": [
