@@ -21,18 +21,6 @@
       "threshold": 2,
       "nodes": [
         {
-          "host": "web-antiban-probe-1.invalid",
-          "weight": 100
-        },
-        {
-          "host": "web-antiban-probe-2.invalid",
-          "weight": 90
-        },
-        {
-          "host": "web-antiban-probe-3.invalid",
-          "weight": 80
-        },
-        {
           "host": "web.fungo.chat",
           "weight": 10
         },
