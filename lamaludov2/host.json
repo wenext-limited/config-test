@@ -173,6 +173,7 @@
     },
     {
       "group_name": "okey101-turkey",
+      "threshold": 2,
       "nodes": [
         {
           "host": "okey101-turkey.wenext-ludo.chat",
@@ -186,6 +187,7 @@
     },
     {
       "group_name": "arrow-duel",
+      "threshold": 2,
       "nodes": [
         {
           "host": "arrow-duel.wenext-ludo.chat",
@@ -199,6 +201,7 @@
     },
     {
       "group_name": "pose-director",
+      "threshold": 2,
       "nodes": [
         {
           "host": "pose-director.wenext-ludo.chat",
@@ -212,6 +215,7 @@
     },
     {
       "group_name": "mahjong-match",
+      "threshold": 2,
       "nodes": [
         {
           "host": "mahjong-match.wenext-ludo.chat",
@@ -225,6 +229,7 @@
     },
     {
       "group_name": "junk-artist",
+      "threshold": 2,
       "nodes": [
         {
           "host": "junk-artist.wenext-ludo.chat",
@@ -238,6 +243,7 @@
     },
     {
       "group_name": "super-trivia",
+      "threshold": 2,
       "nodes": [
         {
           "host": "super-trivia.wenext-ludo.chat",
@@ -251,6 +257,7 @@
     },
     {
       "group_name": "candy-crush",
+      "threshold": 2,
       "nodes": [
         {
           "host": "candy-crush.wenext-ludo.chat",
@@ -264,6 +271,7 @@
     },
     {
       "group_name": "draw-guess",
+      "threshold": 2,
       "nodes": [
         {
           "host": "draw-guess.wenext-ludo.chat",
@@ -277,6 +285,7 @@
     },
     {
       "group_name": "carrom-survival",
+      "threshold": 2,
       "nodes": [
         {
           "host": "carrom-survival.wenext-ludo.chat",
@@ -290,6 +299,7 @@
     },
     {
       "group_name": "bubble-shooter-multiplayer",
+      "threshold": 2,
       "nodes": [
         {
           "host": "bubble-shooter-multiplayer.wenext-ludo.chat",
@@ -303,6 +313,7 @@
     },
     {
       "group_name": "billiards-server",
+      "threshold": 2,
       "nodes": [
         {
           "host": "billiards-server.wenext-ludo.chat",
@@ -316,6 +327,7 @@
     },
     {
       "group_name": "ball-battle",
+      "threshold": 2,
       "nodes": [
         {
           "host": "ball-battle.wenext-ludo.chat",
@@ -329,6 +341,7 @@
     },
     {
       "group_name": "snake-ladder",
+      "threshold": 2,
       "nodes": [
         {
           "host": "snake-ladder.wenext-ludo.chat",
