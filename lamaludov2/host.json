@@ -4,17 +4,17 @@
   },
   "upload_hosts": [
     {
-      "group_name": "new_group",
+      "group_name": "user-upload-ali",
       "nodes": [
         {
-          "host": "lamaludo.oss-ap-southeast-1.aliyuncs.com",
+          "host": "lamaludo.oss-accelerate.aliyuncs.com",
           "weight": 10,
-          "desc": "加速域名1"
+          "desc": "源站域名"
         },
         {
-          "host": "lamaludo.oss-accelerate.aliyuncs.com",
+          "host": "lamaludo.oss-ap-southeast-1.aliyuncs.com",
           "weight": 1,
-          "desc": "源站域名"
+          "desc": "兜底域名"
         }
       ]
     }
@@ -50,20 +50,6 @@
       ]
     },
     {
-      "group_name": "web",
-      "threshold": 2,
-      "nodes": [
-        {
-          "host": "web-cf.wenext-ludo.chat",
-          "weight": 10
-        },
-        {
-          "host": "web.wenext.games",
-          "weight": 5
-        }
-      ]
-    },
-    {
       "group_name": "wenext-activity",
       "desc": "新活动平台",
       "nodes": [
@@ -73,7 +59,7 @@
         },
         {
           "host": "api-fra.wenext-activity.top",
-          "weight": 2
+          "weight": 1
         }
       ]
     },
