@@ -170,6 +170,175 @@
           "desc": "Cloudflare CDN 加速域名"
         }
       ]
+    },
+    {
+      "group_name": "okey101-turkey",
+      "nodes": [
+        {
+          "host": "okey101-turkey.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "ludo-okey101-turkey.cfwenext202410.workers.dev",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "arrow-duel",
+      "nodes": [
+        {
+          "host": "arrow-duel.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "ludo-arrow-duel.cfwenext202410.workers.dev",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "pose-director",
+      "nodes": [
+        {
+          "host": "pose-director.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "ludo-pose-director.cfwenext202410.workers.dev",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "mahjong-match",
+      "nodes": [
+        {
+          "host": "mahjong-match.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "ludo-mahjong-match.cfwenext202410.workers.dev",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "junk-artist",
+      "nodes": [
+        {
+          "host": "junk-artist.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "ludo-junk-artist.cfwenext202410.workers.dev",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "super-trivia",
+      "nodes": [
+        {
+          "host": "super-trivia.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "ludo-super-trivia.cfwenext202410.workers.dev",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "candy-crush",
+      "nodes": [
+        {
+          "host": "candy-crush.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "ludo-candy-crush.cfwenext202410.workers.dev",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "draw-guess",
+      "nodes": [
+        {
+          "host": "draw-guess.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "ludo-draw-guess.cfwenext202410.workers.dev",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "carrom-survival",
+      "nodes": [
+        {
+          "host": "carrom-survival.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "ludo-carrom-survival.cfwenext202410.workers.dev",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "bubble-shooter-multiplayer",
+      "nodes": [
+        {
+          "host": "bubble-shooter-multiplayer.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "ludo-bubble-shooter-multiplayer.cfwenext202410.workers.dev",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "billiards-server",
+      "nodes": [
+        {
+          "host": "billiards-server.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "ludo-billiards-server.cfwenext202410.workers.dev",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "ball-battle",
+      "nodes": [
+        {
+          "host": "ball-battle.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "ludo-ball-battle.cfwenext202410.workers.dev",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "group_name": "snake-ladder",
+      "nodes": [
+        {
+          "host": "snake-ladder.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "ludo-snake-ladder.cfwenext202410.workers.dev",
+          "weight": 1
+        }
+      ]
     }
   ],
   "dns": {
