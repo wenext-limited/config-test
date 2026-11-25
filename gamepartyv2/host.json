@@ -2,20 +2,6 @@
   "replace": {},
   "hosts": [
     {
-      "group_name": "h5-failover-qa",
-      "threshold": 1,
-      "nodes": [
-        {
-          "host": "127.0.0.1",
-          "weight": 10
-        },
-        {
-          "host": "localhost",
-          "weight": 1
-        }
-      ]
-    },
-    {
       "group_name": "main",
       "nodes": [
         {

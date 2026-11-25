@@ -3,6 +3,7 @@
     "https://cdn.jsdelivr.net/gh/wenext-limited/config@main/lamav2/host.json"
   ],
   "replace": {
+    "web.wenext.love": "web-cf.wenext-lama.chat"
   },
   "hosts": [
     {
