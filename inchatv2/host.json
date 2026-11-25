@@ -88,6 +88,19 @@
         }
       ],
       "desc": "腾讯云 系统资源 CDN"
+    },
+    {
+      "group_name": "web",
+      "nodes": [
+        {
+          "host": "web-cf.wenext-gameparty.chat",
+          "weight": 10
+        },
+        {
+          "host": "web.wenextinchat.com",
+          "weight": 1
+        }
+      ]
     }
   ],
   "dns": {

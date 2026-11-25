@@ -112,6 +112,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "group_name": "web",
+      "nodes": [
+        {
+          "host": "web-cf.wenext-wyak.chat",
+          "weight": 10
+        },
+        {
+          "host": "web.wenext.chat",
+          "weight": 1
+        }
+      ]
     }
   ],
   "dns": {

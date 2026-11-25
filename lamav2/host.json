@@ -94,6 +94,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "group_name": "web",
+      "nodes": [
+        {
+          "host": "web-cf.wenext-lama.chat",
+          "weight": 10
+        },
+        {
+          "host": "web.wenext.love",
+          "weight": 1
+        }
+      ]
     }
   ],
   "dns": {

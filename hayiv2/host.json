@@ -68,7 +68,22 @@
     "AE": {
       "replace": {
         "web.hayi.chat": "web.wenext-hayi.chat"
-      }
+      },
+      "hosts": [
+        {
+          "group_name": "web",
+          "nodes": [
+            {
+              "host": "web.wenext-hayi.chat",
+              "weight": 10
+            },
+            {
+              "host": "web.hayi.chat",
+              "weight": 1
+            }
+          ]
+        }
+      ]
     }
   }
 }

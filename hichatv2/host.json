@@ -76,6 +76,19 @@
         }
       ],
       "desc": "腾讯云系统资源CDN"
+    },
+    {
+      "group_name": "web",
+      "nodes": [
+        {
+          "host": "web-cf.wenext-hichat.chat",
+          "weight": 10
+        },
+        {
+          "host": "web.hichat.cloud",
+          "weight": 1
+        }
+      ]
     }
   ],
   "dns": {
