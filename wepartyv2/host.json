@@ -150,12 +150,8 @@
       "group_name": "web",
       "nodes": [
         {
-          "host": "weparty-cf.wenext.cloud",
-          "weight": 10
-        },
-        {
           "host": "weparty.wenext.cloud",
-          "weight": 1
+          "weight": 10
         }
       ]
     }
