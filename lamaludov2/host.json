@@ -352,6 +352,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "group_name": "web",
+      "nodes": [
+        {
+          "host": "web-cf.wenext-ludo.chat",
+          "weight": 10
+        },
+        {
+          "host": "web.wenext.games",
+          "weight": 1
+        }
+      ]
     }
   ],
   "dns": {

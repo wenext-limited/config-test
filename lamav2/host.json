@@ -1,4 +1,7 @@
 {
+  "next_config_urls": [
+    "https://cdn.jsdelivr.net/gh/wenext-limited/config@main/lamav2/host.json"
+  ],
   "replace": {
     "web.wenext.love": "web-cf.wenext-lama.chat"
   },
@@ -52,6 +55,7 @@
     },
     {
       "group_name": "cdn-oss",
+      "desc": "阿里云资源 CDN",
       "nodes": [
         {
           "host": "lama-cf.wenext-resource.chat",
@@ -84,13 +88,16 @@
         {
           "host": "wenext-lama.oss-accelerate.aliyuncs.com",
           "weight": 1
+        },
+        {
+          "host": "cdn.wenext.love",
+          "weight": 1
         }
-      ],
-      "desc": "阿里云资源 CDN"
+      ]
     }
   ],
   "dns": {
-    "api.wenext-lama.chat": "alb-50ca2cfejwigbljs01.ap-southeast-1.alb.aliyuncs.com",
+    "api.wenext-lama.chat": "47.236.102.96",
     "lama.wenext.love": "47.241.214.163",
     "lama.wenext.icu": "47.241.214.163",
     "appback.wenext.website": "47.236.187.182",

@@ -71,11 +71,11 @@
           "weight": 10
         },
         {
-          "host": "oss-ecs-system.wenext-gameparty.chat",
+          "host": "inchat-resource.wenext.media",
           "weight": 5
         },
         {
-          "host": "inchat-resource.wenext.media",
+          "host": "oss-ecs-system.wenext-gameparty.chat",
           "weight": 2
         },
         {
@@ -86,7 +86,6 @@
           "host": "inchat-system-1314119829.cos.eu-frankfurt.myqcloud.com",
           "weight": 1
         }
-        
       ],
       "desc": "腾讯云 系统资源 CDN"
     }
