@@ -1,6 +1,5 @@
 {
   "replace": {
-    "web.hichat.cloud": "web-cf.wenext-hichat.chat"
   },
   "hosts": [
     {

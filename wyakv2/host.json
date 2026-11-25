@@ -1,6 +1,5 @@
 {
   "replace": {
-    "web.wenext.chat": "web-cf.wenext-wyak.chat"
   },
   "hosts": [
     {

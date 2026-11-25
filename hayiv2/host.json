@@ -67,7 +67,6 @@
   "country": {
     "AE": {
       "replace": {
-        "web.hayi.chat": "web.wenext-hayi.chat"
       },
       "hosts": [
         {

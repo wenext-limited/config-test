@@ -1,6 +1,5 @@
 {
   "replace": {
-    "web.wenextinchat.com": "web-cf.wenext-gameparty.chat"
   },
   "hosts": [
     {

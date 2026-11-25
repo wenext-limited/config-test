@@ -3,7 +3,6 @@
     "https://cdn.jsdelivr.net/gh/wenext-limited/config@main/wepartyv2/host.json"
   ],
   "replace": {
-    "weparty.wenext.cloud": "weparty-cf.wenext.cloud"
   },
   "upload_hosts": [
     {
